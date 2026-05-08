@@ -22,6 +22,7 @@
 ||configv2.unityads.unity3d.com.box^
 ||banners-bt.wildberries.ru^
 ||ad.doubleclick.net.box^
+||www.googleadservices.com^
 
 !== METRICS ==
 ||appmetrica.sovcombank.ru^
