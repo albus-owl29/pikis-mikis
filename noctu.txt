@@ -5,7 +5,7 @@
 !== ADS ==
 ||ads.adfox.ru.box^
 ||www.googletagmanager.com^
-||www.googleadservices.com^
+||www.googleadservices.com^important
 ||ogads-pa.clients6.google.com^
 ||mads.amazon-adsystem.com.box^
 ||c.amazon-adsystem.com.box^
