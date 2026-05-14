@@ -19,19 +19,22 @@
 ||alt6-mtalk.google.com^$important
 ||www.googletagmanager.com^
 ||ogads-pa.clients6.google.com^
-||googleads.g.doubleclick.net.box^
-||ad.doubleclick.net.box^
-||www.google-analytics.com.box^
-||region1.analytics.google.com.box^
-||crashlyticsreports-pa.googleapis.com.box^
+||googleads.g.doubleclick.net.box^$important
+||ad.doubleclick.net.box^$important
+||www.google-analytics.com.box^$important
+||region1.analytics.google.com.box^$important
+||crashlyticsreports-pa.googleapis.com.box^$important
 ||gstatic.com.box^
-||connectivitycheck.gstatic.com.box^
+||connectivitycheck.gstatic.com^$important
 ||encrypted-tbn2.gstatic.com.box^
-||appsgrowthpromo-pa.googleapis.com.box^
-||xgapromomanager-pa.googleapis.com.box^
+||appsgrowthpromo-pa.googleapis.com.box^$important
+||xgapromomanager-pa.googleapis.com.box^$important
 ||firebaselogging.googleapis.com.box^
 ||ajax.googleapis.com^$important
-||firebase-settings.crashlytics.com.box^
+||firebase-settings.crashlytics.com.box^$important
+||connectivitycheck.gstatic.com.box^
+||update.googleapis.com^$important
+||firebaselogging-pa.googleapis.com.box^$important
 
 ! === APPLE ===
 ||inappcheck.itunes.apple.com^$important
@@ -52,8 +55,13 @@
 ||s.mzstatic.com^
 ||assets-mercury.mzstatic.com^
 ||static.gc.apple.com^
+||is1-ssl.mzstatic.com^$important
+||is4-ssl.mzstatic.com^$important
+||is3-ssl.mzstatic.com^$important
+||statici.icloud.com^$important
+||ontology.health.apple.com^$important
 
-! === META / FACEBOOK / INSTAGRAM / WHATSAPP ===
+! === META (FACEBOOK / INSTAGRAM / WHATSAPP) ===
 ||scontent-atl3-2.cdninstagram.com^$important
 ||scontent-atl3-1.cdninstagram.com^$important
 ||static.cdninstagram.com^$important
@@ -66,14 +74,17 @@
 ||verify.yandex.ru^$important
 ||cdnrhkgfkkpupuotntfj.svc.cdn.yandex.net^$important
 ||cloudcdn-spbmiran-26.cdn.yandex.net^$important
-||startup.appmetrica.yango.com^
+||startup.appmetrica.yango.com^$important
 ||redirect.appmetrica.yandex.com^
-||rosenberg.appmetrica.yandex.net.box^
+||rosenberg.appmetrica.yandex.net.box^$important
 ||report.appmetrica.yandex.net.box^
-||report.appmetrica.yango.com^
+||report.appmetrica.yango.com^$important
 ||static.yandex.net^
 ||cdn-static.video.cloud.yandex.net^
-||taxi-promotions.s3.yandex.net^
+||taxi-promotions.s3.yandex.net^$important
+||answers-static.s3.yandex.net^$important
+||appmetrica.yandex.ru^$important
+||metrika.yandex.ru^$important
 
 ! === MICROSOFT / GITHUB ===
 ||officeclient.microsoft.com^$important
@@ -81,6 +92,7 @@
 ||geo.prod.do.dsp.mp.microsoft.com^$important
 ||curbengh.github.io^$important
 ||raw.githubusercontent.com^$important
+||ctldl.windowsupdate.com^$important
 
 ! === AMAZON ===
 ||mads.amazon-adsystem.com.box^
@@ -94,11 +106,12 @@
 ||st.mycdn.me^$important
 ||vu.mycdn.me^$important
 ||ovu.mycdn.me^$important
-||tracker-api.vk-analytics.ru.box^
-||ip4.tracker-api.my.com.box^
-||ts.tracker-api.vk-analytics.ru.box^
+||tracker-api.vk-analytics.ru.box^$important
+||ip4.tracker-api.my.com.box^$important
+||ts.tracker-api.vk-analytics.ru.box^$important
 ||ts.tracker-api.my.com.box^
 ||tracker-api.my.com.box^
+||ip4.tracker-api.vk-analytics.ru.box^$important
 
 ! === SAMSUNG ===
 ||vas.samsungapps.com^$important
@@ -108,7 +121,7 @@
 ! === BYTEDANCE / TIKTOK ===
 ||lf-static.tiktokpangle-cdn-us.com.box^
 
-! === TINKOFF / T-BANK ===
+! === T-BANK / TINKOFF ===
 ||error-hub.tinkoff.ru^$important
 ||tads.tbank.ru^
 ||fingerprint.t-static.ru^
@@ -118,71 +131,81 @@
 ||nfs-imgproxy-cdn.t-static.ru^
 ||mobile-lifestyle-static-prod.cdn-tinkoff.ru^
 ||promokod.tbank.ru^
+||business.t-static.ru^$important
+||confucius-public-configs.t-static.ru^$important
 
 ! === WILDBERRIES ===
 ||ads-media.wildberries.ru^
-||banners-bt.wildberries.ru^
+||banners-bt.wildberries.ru^$important
 ||data-checker.wildberries.ru^
-||wbx-status-tracker.wildberries.ru^
+||wbx-status-tracker.wildberries.ru^$important
 ||static-basket-01.wb.ru^
 ||static-basket-01.wbbasket.ru^
 ||static-basket-02.wbbasket.ru^
 ||static-basket-03.wbbasket.ru^
 ||static-basket-03.wb.ru^
-||marketplace-sentry.wb.ru^
+||marketplace-sentry.wb.ru^$important
+||fin-banners-bt.wildberries.ru^$important
+||antibot.wildberries.ru^$important
 
-! === MAJOR RU TECH & RETAIL (Avito, Ozon, HH, X5, AlfaBank, MTS, etc.) ===
-||sentry.ozon.ru.box^
-||sentry26-test.avito.ru^
+! === MAJOR RU TECH & RETAIL ===
+||sentry.ozon.ru.box^$important
+||sentry26-test.avito.ru^$important
 ||static.avito.ru^
 ||stats.avito.ru.box^
-||sentry.hh.ru^
+||sentry.hh.ru^$important
 ||ads.x5media.ru^
-||sentry.x5.ru^
-||supersentry.cdek.ru^
+||sentry.x5.ru^$important
+||supersentry.cdek.ru^$important
 ||metrics.alfabank.ru^
-||sentry-mobile.alfabank.ru^
+||sentry-mobile.alfabank.ru^$important
 ||ads.rustore.ru^
 ||stats.rustore.ru.box^
 ||static.a.mts.ru.box^
+||x5m-cdn.x5static.net^$important
+||5ka-media.x5static.net^$important
 
 ! ==========================================
 ! === SPECIFIC SERVICES & INFRASTRUCTURE ===
 ! ==========================================
 
-! === APPSFLYER SDK & TRACKING ===
-||hqzcmw-launches.appsflyersdk.com.box^
-||cqohtp.inapps.appsflyersdk.com.box^
-||inapps.appsflyersdk.com.box^
+! === APPSFLYER SDK ===
+||hqzcmw-launches.appsflyersdk.com.box^$important
+||cqohtp.inapps.appsflyersdk.com.box^$important
+||inapps.appsflyersdk.com.box^$important
 ||zugkc4.cdn-settings.appsflyersdk.com.box^
 ||l29dvm-cdn-settings.appsflyersdk.com.box^
 ||kiqsrh-cdn-settings.appsflyersdk.com.box^
-||kiqsrh-inapps.appsflyersdk.com.box^
+||kiqsrh-inapps.appsflyersdk.com.box^$important
+||hqzcmw-cdn-settings.appsflyersdk.com.box^$important
+||cqohtp.cdn-settings.appsflyersdk.com.box^$important
+||launches.appsflyersdk.com.box^$important
+||cqonnw-inapps.appsflyersdk.com.box^$important
+||cdn-settings.appsflyersdk.com.box^$important
 
-! === SENTRY & CRASHLYTICS (Independent) ===
-||sentry-relay.avs.io^
+! === SENTRY & INDEPENDENT CRASH REPORTS ===
+||sentry-relay.avs.io^$important
 ||o33249.ingest.sentry.io.box^
-||o1118521.ingest.us.sentry.io.box^
-||sentry-relay.eu-north-1.avs.io^
+||o1118521.ingest.us.sentry.io.box^$important
+||sentry-relay.eu-north-1.avs.io^$important
+||sentry-blitz-fe.mntprod.net^$important
+||sentry-devtools.qsrapp.ru^$important
+||sentry.io^$important
 
-! === GLOBAL CDNS (Akamai, Cloudflare, jsDelivr, etc.) ===
+! === CDNS & STATIC STORAGE ===
 ||a708.dsct.akamai.net^$important
 ||a1956.dscw154.akamai.net^$important
 ||akamai.net^
 ||cdn.jsdelivr.net^$important
+||static-storage.net^$important
+||yandex-pogoda.static-storage.net^$important
+||st.aestatic.net^$important
+||content-static.pstatic.net^$important
+||epik-static-nres.pstatic.net^$important
+||www.redditstatic.com^$important
 
-! === COOKIES, CONSENT & FINGERPRINTING ===
-||geo.cookie-script.com^
-||cookies-data.onetrust.io^
-||www.cookiebot.com^
-||autocookie.org^
-||fingerprint.com^
-||fingerprintjs.com^
-||whotracks.me^
-||trace-flow.ru^
-
-! === ADS & PROMO (General Networks) ===
-||ads.adfox.ru.box^
+! === ADS, PROMO & ANALYTICS (NETWORKS) ===
+||ads.adfox.ru.box^$important
 ||config.ads.vungle.com.box^
 ||events.ads.vungle.com.box^
 ||eye.targetads.io.box^
@@ -191,15 +214,37 @@
 ||pixel.adlooxtracking.ru^$important
 ||pixelswhirl.com^$important
 ||www.awin1.com^
-||promo.rutubelist.ru^
-
-! === ANALYTICS & METRICS (General) ===
-||appmetrica.sovcombank.ru^
+||promo.rutubelist.ru^$important
+||ad.adriver.ru.box^$important
+||content.adriver.ru.box^$important
+||adv.adriver.ru^$important
+||analytics.dns-shop.ru.box^$important
+||tracking.retailrocket.ru^$important
+||appmetrica.sovcombank.ru^$important
 ||analytics-tcp.mintegral.net.box^
-||analytics.dns-shop.ru.box^
 ||reports.exodus-privacy.eu.org^
+||counter.insales.com^$important
 
-! === MISC SYSTEM, SECURITY, STATICS & PROXIES ===
+! === COOKIES, CONSENT & FINGERPRINTING ===
+||geo.cookie-script.com^
+||cookies-data.onetrust.io^
+||www.cookiebot.com^$important
+||autocookie.org^
+||fingerprint.com^
+||fingerprintjs.com^
+||whotracks.me^
+||trace-flow.ru^
+
+! === BOT CONTROL & SERVICES ===
+||bot.gslb.gosuslugi.ru^$important
+||bot.gosuslugi.ru^$important
+||alectryon.walletbot.me^$important
+||p2p.walletbot.me^$important
+||walletbot.me^$important
+||bot.jaicp.com^$important
+||daos.walletbot.me^$important
+
+! === SYSTEM, SECURITY & MISC ===
 ||fota-secure-dn.ospserver.net^$important
 ||static.nvidiagrid.net^$important
 ||static.insales-cdn.com^
@@ -211,7 +256,7 @@
 ||kaspersky-labs.com^
 ||geobasket.ru^
 ||combat-log.tanki.su^
-||frontlogger.dodois.io.box^
+||frontlogger.dodois.io.box^$important
 ||telemetry.robokassa.ru^$important
 ||detectportal.firefox.com^$important
 ||secure.globalsign.com^$important
@@ -219,3 +264,17 @@
 ||widget.intercom.io^
 ||ifconfig.me^
 ||sdk-api.apptracer.ru.box^
+||platform-static-production.lesta.ru^$important
+||static.rutube.ru^$important
+||cdn-ptl-static-2.tanksblitz.ru^$important
+||static-lstuscs.lesta.ru^$important
+||static.2ip.io^$important
+||static.yoomoney.ru^$important
+||mobile-static.mindbox.ru^$important
+||static.tildacdn.com^$important
+||stat.tildaapi.com^$important
+||yastatic-net.ru^$important
+||web-static-no-content.s.mindbox.ru^$important
+||web-static.s.mindbox.ru^$important
+||web-static.mindbox.ru^$important
+||control.adjust.com^$important
