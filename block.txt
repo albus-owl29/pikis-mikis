@@ -265,7 +265,6 @@
 ||sdk-api.apptracer.ru.box^
 ||platform-static-production.lesta.ru^$important
 ||static.rutube.ru^$important
-||cdn-ptl-static-2.tanksblitz.ru^$important
 ||static-lstuscs.lesta.ru^$important
 ||static.2ip.io^$important
 ||static.yoomoney.ru^$important
