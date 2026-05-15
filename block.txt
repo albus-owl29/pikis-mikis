@@ -202,7 +202,6 @@
 ||st.aestatic.net^$important
 ||content-static.pstatic.net^$important
 ||epik-static-nres.pstatic.net^$important
-||www.redditstatic.com^$important
 
 ! === ADS, PROMO & ANALYTICS (NETWORKS) ===
 ||ads.adfox.ru.box^$important
