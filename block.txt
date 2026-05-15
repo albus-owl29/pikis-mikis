@@ -159,6 +159,7 @@
 ||supersentry.cdek.ru^$important
 ||metrics.alfabank.ru^
 ||sentry-mobile.alfabank.ru^$important
+||sentry-blitz-fe.mntprod.net^$important
 ||ads.rustore.ru^
 ||stats.rustore.ru.box^
 ||static.a.mts.ru.box^
