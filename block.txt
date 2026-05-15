@@ -188,7 +188,6 @@
 ||o33249.ingest.sentry.io.box^
 ||o1118521.ingest.us.sentry.io.box^$important
 ||sentry-relay.eu-north-1.avs.io^$important
-||sentry-blitz-fe.mntprod.net^$important
 ||sentry-devtools.qsrapp.ru^$important
 ||sentry.io^$important
 
