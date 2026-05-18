@@ -62,12 +62,7 @@
 ||ontology.health.apple.com^$important
 
 ! === META (FACEBOOK / INSTAGRAM / WHATSAPP) ===
-||scontent-atl3-2.cdninstagram.com^$important
-||scontent-atl3-1.cdninstagram.com^$important
 ||static.cdninstagram.com^$important
-||scontent-atl3-3.cdninstagram.com^$important
-||test-gateway.instagram.com^$important
-||mmx-ds.cdn.whatsapp.net^$important
 ||static.whatsapp.net^
 
 ! === YANDEX ===
