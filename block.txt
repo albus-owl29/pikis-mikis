@@ -233,7 +233,6 @@
 ||static2.banki.ru^
 ||static.aviasales.com^
 ||kaspersky-labs.com^
-||geobasket.ru^
 ||combat-log.tanki.su^
 ||frontlogger.dodois.io.box^$important
 ||telemetry.robokassa.ru^$important
