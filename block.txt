@@ -127,12 +127,9 @@
 
 ! === WILDBERRIES ===
 ||ads-media.wildberries.ru^
-||banners-bt.wildberries.ru^$important
 ||data-checker.wildberries.ru^
 ||wbx-status-tracker.wildberries.ru^$important
-||marketplace-sentry.wb.ru^$important
 ||fin-banners-bt.wildberries.ru^$important
-||antibot.wildberries.ru^$important
 
 ! === MAJOR RU TECH & RETAIL ===
 ||sentry.ozon.ru.box^$important
