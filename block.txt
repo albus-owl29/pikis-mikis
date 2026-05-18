@@ -61,10 +61,6 @@
 ||statici.icloud.com^$important
 ||ontology.health.apple.com^$important
 
-! === META (FACEBOOK / INSTAGRAM / WHATSAPP) ===
-||static.cdninstagram.com^$important
-||static.whatsapp.net^
-
 ! === YANDEX ===
 ||verify.yandex.ru^$important
 ||cdnrhkgfkkpupuotntfj.svc.cdn.yandex.net^$important
