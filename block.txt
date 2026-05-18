@@ -130,11 +130,6 @@
 ||banners-bt.wildberries.ru^$important
 ||data-checker.wildberries.ru^
 ||wbx-status-tracker.wildberries.ru^$important
-||static-basket-01.wb.ru^
-||static-basket-01.wbbasket.ru^
-||static-basket-02.wbbasket.ru^
-||static-basket-03.wbbasket.ru^
-||static-basket-03.wb.ru^
 ||marketplace-sentry.wb.ru^$important
 ||fin-banners-bt.wildberries.ru^$important
 ||antibot.wildberries.ru^$important
