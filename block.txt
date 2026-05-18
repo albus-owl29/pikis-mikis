@@ -127,7 +127,6 @@
 
 ! === WILDBERRIES ===
 ||ads-media.wildberries.ru^
-||wbx-status-tracker.wildberries.ru^$important
 
 ! === MAJOR RU TECH & RETAIL ===
 ||sentry.ozon.ru.box^$important
