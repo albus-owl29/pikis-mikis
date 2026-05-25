@@ -8,9 +8,15 @@
 
 ! === GOOGLE / ALPHABET ===
 @@|android.clients.google.com^$important
-@@|lh3.googleusercontent.com^$important
 @@|android.googleapis.com^$important
-@@|fonts.gstatic.com^$important
+@@||developer.android.com^$important
+@@||apkpure-com.cdn.ampproject.org^$important
+
+! === APPLE ===
+@@||amp-api-search-edge.apps.apple.com^$important
+@@||pancake.apple.com^$important
+@@||amp-api-edge.apps.apple.com^$important
+@@||is1-ssl.mzstatic.com^$important
 
 ! === YANDEX ===
 @@|yastatic.net
@@ -21,6 +27,14 @@
 @@||alicdn.com
 @@aliexpress.ru
 
+! === HUAWEI ===
+@@||datacollector-drru.dt.dbankcloud.ru^$important
+
+! === ZEPP / AMAZFIT ===
+@@||upload-cdn.zepp.com^$important
+@@||img-cdn.zepp.com^$important
+@@||store-cdn.zepp.com^$important
+
 ! === AVITO ===
 @@img.avito.st
 
@@ -28,8 +42,18 @@
 @@backapi.rustore.ru
 @@static.rustore.ru
 
+! === REVOLUT ===
+@@||get.revolut.com^$important
+
 ! === AI SERVICES ===
 @@||chatglm.cn
+
+! ==========================================
+! === SPECIFIC SERVICES & INFRASTRUCTURE ===
+! ==========================================
+
+! === CDNS & STATIC STORAGE ===
+@@||st.aestatic.net^$important
 
 ! ==========================================
 ! === NOTES ON SYNTAX ===
