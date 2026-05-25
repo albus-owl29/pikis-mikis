@@ -6,7 +6,7 @@
 ! === MAJOR CORPORATIONS (STRICT BLOCKS) ===
 ! ==========================================
 
-! === GOOGLE / ALPHABET ===
+! === GOOGLE / ALPHABET / YOUTUBE ===
 ||www.googleadservices.com^$important
 ||securitydomain-pa.googleapis.com.box^$important
 ||waa-pa.clients6.google.com^$important
@@ -35,6 +35,10 @@
 ||connectivitycheck.gstatic.com.box^
 ||update.googleapis.com^$important
 ||firebaselogging-pa.googleapis.com.box^$important
+||c.pki.goog^$important
+||redirector.googlevideo.com^$important
+||dai.google.com^$important
+||s.youtube.com^$important
 
 ! === APPLE ===
 ||inappcheck.itunes.apple.com^$important
@@ -76,6 +80,10 @@
 ||answers-static.s3.yandex.net^$important
 ||appmetrica.yandex.ru^$important
 ||metrika.yandex.ru^$important
+||ext-strm-ruspb01mgfn-01.strm.yandex.net^$important
+||api.browser.yandex.ru^$important
+||media-adv.market.yandex.ru^$important
+||media-adv.vs.market.yandex.net^$important
 
 ! === MICROSOFT / GITHUB ===
 ||officeclient.microsoft.com^$important
@@ -91,6 +99,7 @@
 ||aax-eu.amazon-adsystem.com.box^
 ||mdtb-eu-2.ads.aps.amazon-adsystem.com.box^
 ||checkip.amazonaws.com.box^
+||mads-eu.amazon.com^$important
 
 ! === VK / MAIL.RU ===
 ||api.mycdn.me^$important
@@ -103,14 +112,18 @@
 ||ts.tracker-api.my.com.box^
 ||tracker-api.my.com.box^
 ||ip4.tracker-api.vk-analytics.ru.box^$important
+||otvet-static.cdn-vk.net^$important
+||ads.vk.com^$important
 
-! === SAMSUNG ===
-||vas.samsungapps.com^$important
-||ru-odc.samsungapps.com^$important
-||www.samsungsds.com^$important
+! === META / FACEBOOK ===
+||tr.facebook.com^$important
 
-! === BYTEDANCE / TIKTOK ===
-||lf-static.tiktokpangle-cdn-us.com.box^
+! === X / TWITTER ===
+||ads-api.twitter.com^$important
+||ads.x.com^$important
+||analytics.twitter.com^$important
+||ads-api.x.com^$important
+||business.x.com^$important
 
 ! === T-BANK / TINKOFF ===
 ||error-hub.tinkoff.ru^$important
@@ -124,11 +137,31 @@
 ||promokod.tbank.ru^
 ||business.t-static.ru^$important
 ||confucius-public-configs.t-static.ru^$important
+||ms-ads-image.t-static.ru^$important
 
 ! === WILDBERRIES ===
 ||ads-media.wildberries.ru^
+||wbx-status-tracker.wildberries.ru^$important
 
-! === MAJOR RU TECH & RETAIL ===
+! === SAMSUNG ===
+||vas.samsungapps.com^$important
+||ru-odc.samsungapps.com^$important
+||www.samsungsds.com^$important
+
+! === LENOVO ===
+||a.lenovo.com^$important
+
+! === LG ===
+||ngfts.lge.com^$important
+||us.ibs.lgappstv.com^$important
+
+! === VIZIO ===
+||ads.vizio.com^$important
+
+! === BYTEDANCE / TIKTOK ===
+||lf-static.tiktokpangle-cdn-us.com.box^
+
+! === MAJOR RU TECH, RETAIL & FINANCE ===
 ||sentry.ozon.ru.box^$important
 ||sentry26-test.avito.ru^$important
 ||static.avito.ru^
@@ -145,6 +178,8 @@
 ||static.a.mts.ru.box^
 ||x5m-cdn.x5static.net^$important
 ||5ka-media.x5static.net^$important
+||appmetrica.sovcombank.ru^$important
+||app-analytics.whoosh.bike^$important
 
 ! ==========================================
 ! === SPECIFIC SERVICES & INFRASTRUCTURE ===
@@ -163,6 +198,7 @@
 ||launches.appsflyersdk.com.box^$important
 ||cqonnw-inapps.appsflyersdk.com.box^$important
 ||cdn-settings.appsflyersdk.com.box^$important
+||app.appsflyers.com^$important
 
 ! === SENTRY & INDEPENDENT CRASH REPORTS ===
 ||sentry-relay.avs.io^$important
@@ -176,12 +212,14 @@
 ||a708.dsct.akamai.net^$important
 ||a1956.dscw154.akamai.net^$important
 ||akamai.net^
+||akamaiedge.net^
 ||cdn.jsdelivr.net^$important
 ||static-storage.net^$important
 ||yandex-pogoda.static-storage.net^$important
 ||st.aestatic.net^$important
 ||content-static.pstatic.net^$important
 ||epik-static-nres.pstatic.net^$important
+||ssl.p.jwpcdn.com^$important
 
 ! === ADS, PROMO & ANALYTICS (NETWORKS) ===
 ||ads.adfox.ru.box^$important
@@ -192,17 +230,21 @@
 ||apptracking.retailrocket.ru^$important
 ||pixel.adlooxtracking.ru^$important
 ||pixelswhirl.com^$important
-||www.awin1.com^
+||www.awin1.com^$important
 ||promo.rutubelist.ru^$important
 ||ad.adriver.ru.box^$important
 ||content.adriver.ru.box^$important
 ||adv.adriver.ru^$important
 ||analytics.dns-shop.ru.box^$important
 ||tracking.retailrocket.ru^$important
-||appmetrica.sovcombank.ru^$important
 ||analytics-tcp.mintegral.net.box^
 ||reports.exodus-privacy.eu.org^
 ||counter.insales.com^$important
+||ironsource.mobi^$important
+||pixel.quora.com^$important
+||analyze.playdeck.io^$important
+||app-analytics-services-att.com^$important
+||api-analytics-cn3.zepp.com^$important
 
 ! === COOKIES, CONSENT & FINGERPRINTING ===
 ||geo.cookie-script.com^
@@ -213,6 +255,7 @@
 ||fingerprintjs.com^
 ||whotracks.me^
 ||trace-flow.ru^
+||trackcmp.net^$important
 
 ! === BOT CONTROL & SERVICES ===
 ||bot.gslb.gosuslugi.ru^$important
@@ -239,7 +282,7 @@
 ||detectportal.firefox.com^$important
 ||secure.globalsign.com^$important
 ||filters.adtidy.org^$important
-||widget.intercom.io^
+||widget.intercom.io^$important
 ||ifconfig.me^
 ||sdk-api.apptracer.ru.box^
 ||platform-static-production.lesta.ru^$important
@@ -255,3 +298,9 @@
 ||web-static.s.mindbox.ru^$important
 ||web-static.mindbox.ru^$important
 ||control.adjust.com^$important
+||mineralt.io^$important
+||minero.cc^$important
+||greatis.com^$important
+||tvinteractive.tv^$important
+||2giga.link^$important
+||ymatuhin.ru^$important
