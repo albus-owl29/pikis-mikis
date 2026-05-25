@@ -32,7 +32,6 @@
 ||firebase-settings.crashlytics.com.box^$important
 ||connectivitycheck.gstatic.com.box^$important
 ||firebaselogging-pa.googleapis.com.box^$important
-||c.pki.goog^$important
 ||redirector.googlevideo.com^$important
 ||dai.google.com^$important
 ||s.youtube.com^$important
