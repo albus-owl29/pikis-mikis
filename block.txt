@@ -86,7 +86,6 @@
 ||mrodevicemgr.officeapps.live.com^$important
 ||geo.prod.do.dsp.mp.microsoft.com^$important
 ||curbengh.github.io^$important
-||raw.githubusercontent.com^$important
 ||ctldl.windowsupdate.com^$important
 
 ! === AMAZON ===
