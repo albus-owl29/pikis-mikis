@@ -87,6 +87,8 @@
 ||geo.prod.do.dsp.mp.microsoft.com^$important
 ||curbengh.github.io^$important
 ||ctldl.windowsupdate.com^$important
+||fe2cr.update.microsoft.com^$important
+||slscr.update.microsoft.com^$important
 
 ! === AMAZON ===
 ||mads.amazon-adsystem.com.box^$important
@@ -109,6 +111,7 @@
 ||ip4.tracker-api.vk-analytics.ru.box^$important
 ||otvet-static.cdn-vk.net^$important
 ||ads.vk.com^$important
+||static.vk.com^$important
 
 ! === META / FACEBOOK ===
 ||tr.facebook.com^$important
@@ -137,6 +140,9 @@
 ! === WILDBERRIES ===
 ||ads-media.wildberries.ru^$important
 ||wbx-status-tracker.wildberries.ru^$important
+||fin-banners-bt.wildberries.ru^$important
+||banners-bt.wildberries.ru^$important
+||marketplace-sentry.wb.ru^$important
 
 ! === SAMSUNG ===
 ||vas.samsungapps.com^$important
@@ -156,8 +162,12 @@
 ! === BYTEDANCE / TIKTOK ===
 ||lf-static.tiktokpangle-cdn-us.com.box^$important
 
+! === QUORA ===
+||pixel.quora.com^$important
+
 ! === MAJOR RU TECH, RETAIL & FINANCE ===
 ||sentry.ozon.ru.box^$important
+||sentry.ozon.ru^$important
 ||sentry26-test.avito.ru^$important
 ||static.avito.ru^$important
 ||stats.avito.ru.box^$important
@@ -175,6 +185,7 @@
 ||5ka-media.x5static.net^$important
 ||appmetrica.sovcombank.ru^$important
 ||app-analytics.whoosh.bike^$important
+||sentry.kontur.host^$important
 
 ! ==========================================
 ! === SPECIFIC SERVICES & INFRASTRUCTURE ===
@@ -215,6 +226,7 @@
 ||content-static.pstatic.net^$important
 ||epik-static-nres.pstatic.net^$important
 ||ssl.p.jwpcdn.com^$important
+||static-gg.servicecdn.ru^$important
 
 ! === ADS, PROMO & ANALYTICS (NETWORKS) ===
 ||ads.adfox.ru.box^$important
@@ -236,10 +248,13 @@
 ||reports.exodus-privacy.eu.org^$important
 ||counter.insales.com^$important
 ||ironsource.mobi^$important
-||pixel.quora.com^$important
 ||analyze.playdeck.io^$important
 ||app-analytics-services-att.com^$important
 ||api-analytics-cn3.zepp.com^$important
+||pixel.dsp.onetarget.ru^$important
+||apity.ris.promo^$important
+||ris.promo^$important
+||api.ris.promo^$important
 
 ! === COOKIES, CONSENT & FINGERPRINTING ===
 ||geo.cookie-script.com^$important
@@ -299,3 +314,6 @@
 ||tvinteractive.tv^$important
 ||2giga.link^$important
 ||ymatuhin.ru^$important
+||api.telemetry.cloud.com^$important
+||datatracker.ietf.org^$important
+||update.ultraviewer.net^$important
