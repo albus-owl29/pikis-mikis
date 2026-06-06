@@ -16,7 +16,6 @@
 ||stun4.l.google.com^$important
 ||stun3.l.google.com^$important
 ||alt6-mtalk.google.com^$important
-||www.googletagmanager.com^$important
 ||googleads.g.doubleclick.net.box^$important
 ||ad.doubleclick.net.box^$important
 ||www.google-analytics.com.box^$important
