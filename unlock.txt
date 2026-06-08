@@ -1,63 +1,74 @@
 ! Title: Noctu Custom Whitelist
 ! Description: Critical domains to allow, organized by corporation and service.
 ! Format: Adblock
-
+!
 ! ==========================================
 ! === MAJOR CORPORATIONS (WHITELIST) ===
 ! ==========================================
-
-! === GOOGLE / ALPHABET ===
+!
+! === GOOGLE / ALPHABET / ANDROID ===
 @@|android.clients.google.com^$important
 @@|android.googleapis.com^$important
 @@||developer.android.com^$important
 @@||apkpure-com.cdn.ampproject.org^$important
-
-! === APPLE ===
+!
+! === APPLE / ICLOUD ===
 @@||amp-api-search-edge.apps.apple.com^$important
 @@||pancake.apple.com^$important
 @@||amp-api-edge.apps.apple.com^$important
 @@||is1-ssl.mzstatic.com^$important
-
+@@||ca.iadsdk.apple.com^$important
+@@||gateway.icloud.com^$important
+!
 ! === YANDEX ===
 @@|yastatic.net
 @@|rasp.yastatic.net
 @@||tc.mobile.yandex.net
-
+!
 ! === ALIBABA / ALIEXPRESS ===
 @@||alicdn.com
 @@aliexpress.ru
-
-! === HUAWEI ===
+!
+! === HUAWEI / DBANKCLOUD ===
 @@||datacollector-drru.dt.dbankcloud.ru^$important
-
+!
+! === NVIDIA ===
+@@||ota.nvidia.com^$important
+@@||ngx.download.nvidia.com^$important
+@@||www.nvidia.com^$important
+@@||international-gfe.download.nvidia.com^$important
+@@||images.nvidia.com^$important
+!
 ! === ZEPP / AMAZFIT ===
 @@||upload-cdn.zepp.com^$important
 @@||img-cdn.zepp.com^$important
 @@||store-cdn.zepp.com^$important
-
+!
 ! === AVITO ===
 @@img.avito.st
-
+!
 ! === RUSTORE ===
 @@backapi.rustore.ru
 @@static.rustore.ru
-
+!
 ! === REVOLUT ===
 @@||get.revolut.com^$important
-
+!
 ! === AI SERVICES ===
 @@||chatglm.cn
-
+!
 ! ==========================================
 ! === SPECIFIC SERVICES & INFRASTRUCTURE ===
 ! ==========================================
-
-! === CDNS & STATIC STORAGE ===
+!
+! === DUCKDNS ===
+@@||www.duckdns.org^
+@@||duckdns.org^
+!
+! === CDN & STATIC STORAGE ===
 @@||st.aestatic.net^$important
+@@||static.yoomoney.ru^$important
+@@||www.accuweather.com^$important
+@@||www.awxcdn.com^$important
+!
 
-! ==========================================
-! === NOTES ON SYNTAX ===
-! ==========================================
-! @@| — ограничивает начало строки (точный домен)
-! @@|| — разрешает домен со всеми поддоменами
-! $important — приоритет над блокирующими правилами
