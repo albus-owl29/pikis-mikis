@@ -1,12 +1,12 @@
 ! Title: Noctu Custom Blocklist (Strict Merged & Categorized)
 ! Description: Full blocklist, deduplicated and strictly categorized by corporation.
 ! Format: Adblock
-
+!
 ! ==========================================
 ! === MAJOR CORPORATIONS (STRICT BLOCKS) ===
 ! ==========================================
-
-! === GOOGLE / ALPHABET / YOUTUBE ===
+!
+! === GOOGLE / ALPHABET / YOUTUBE / FIREBASE ===
 ||www.googleadservices.com^$important
 ||securitydomain-pa.googleapis.com.box^$important
 ||lh3.googleusercontent.com^$important
@@ -29,13 +29,14 @@
 ||firebaselogging.googleapis.com.box^
 ||ajax.googleapis.com^$important
 ||firebase-settings.crashlytics.com.box^$important
-||connectivitycheck.gstatic.com.box^$important
 ||firebaselogging-pa.googleapis.com.box^$important
 ||redirector.googlevideo.com^$important
 ||dai.google.com^$important
 ||s.youtube.com^$important
-
-! === APPLE ===
+||doubleclick.net^
+||doubleclick.com^
+!
+! === APPLE / ICLOUD ===
 ||inappcheck.itunes.apple.com^$important
 ||gateway.icloud.com^$important
 ||gateway.fe2.apple-dns.net^$important
@@ -48,7 +49,6 @@
 ||app-site-association.cdn-apple.com^$important
 ||cdn-h3.g.aaplimg.com^$important
 ||updates.cdn-apple.com^$important
-||h3.apis.apple.map.fastly.net^$important
 ||init.push-apple.com.akadns.net^$important
 ||apps.mzstatic.com^$important
 ||s.mzstatic.com^$important
@@ -59,8 +59,8 @@
 ||is3-ssl.mzstatic.com^$important
 ||statici.icloud.com^$important
 ||ontology.health.apple.com^$important
-
-! === YANDEX ===
+!
+! === YANDEX / DZEN / YANGO ===
 ||verify.yandex.ru^$important
 ||cdnrhkgfkkpupuotntfj.svc.cdn.yandex.net^$important
 ||cloudcdn-spbmiran-26.cdn.yandex.net^$important
@@ -79,8 +79,11 @@
 ||api.browser.yandex.ru^$important
 ||media-adv.market.yandex.ru^$important
 ||media-adv.vs.market.yandex.net^$important
-
-! === MICROSOFT / GITHUB ===
+||tracking.ott.yandex.net^$important
+||yandex-pogoda.static-storage.net^$important
+||static.dzeninfra.ru^$important
+!
+! === MICROSOFT / GITHUB / WINDOWS UPDATE ===
 ||officeclient.microsoft.com^$important
 ||mrodevicemgr.officeapps.live.com^$important
 ||geo.prod.do.dsp.mp.microsoft.com^$important
@@ -88,16 +91,18 @@
 ||ctldl.windowsupdate.com^$important
 ||fe2cr.update.microsoft.com^$important
 ||slscr.update.microsoft.com^$important
-
-! === AMAZON ===
+||download.windowsupdate.com^$important
+||oneocsp.microsoft.com^$important
+!
+! === AMAZON / AWS ===
 ||mads.amazon-adsystem.com.box^$important
 ||c.amazon-adsystem.com.box^$important
 ||aax-eu.amazon-adsystem.com.box^$important
 ||mdtb-eu-2.ads.aps.amazon-adsystem.com.box^$important
 ||checkip.amazonaws.com.box^$important
 ||mads-eu.amazon.com^$important
-
-! === VK / MAIL.RU ===
+!
+! === VK / MAIL.RU / OK ===
 ||api.mycdn.me^$important
 ||st.mycdn.me^$important
 ||vu.mycdn.me^$important
@@ -111,17 +116,18 @@
 ||otvet-static.cdn-vk.net^$important
 ||ads.vk.com^$important
 ||static.vk.com^$important
-
+!
 ! === META / FACEBOOK ===
 ||tr.facebook.com^$important
-
+!
 ! === X / TWITTER ===
 ||ads-api.twitter.com^$important
 ||ads.x.com^$important
 ||analytics.twitter.com^$important
 ||ads-api.x.com^$important
 ||business.x.com^$important
-
+||detectportal.firefox.com^$important
+!
 ! === T-BANK / TINKOFF ===
 ||error-hub.tinkoff.ru^$important
 ||tads.tbank.ru^$important
@@ -135,38 +141,39 @@
 ||business.t-static.ru^$important
 ||confucius-public-configs.t-static.ru^$important
 ||ms-ads-image.t-static.ru^$important
-
-! === WILDBERRIES ===
+||track.tbank.ru^$important
+!
+! === WILDBERRIES / WB ===
 ||ads-media.wildberries.ru^$important
 ||wbx-status-tracker.wildberries.ru^$important
 ||fin-banners-bt.wildberries.ru^$important
 ||banners-bt.wildberries.ru^$important
 ||marketplace-sentry.wb.ru^$important
-
+||wildtracker.wb.ru^$important
+!
 ! === SAMSUNG ===
 ||vas.samsungapps.com^$important
 ||ru-odc.samsungapps.com^$important
 ||www.samsungsds.com^$important
-
+!
 ! === LENOVO ===
 ||a.lenovo.com^$important
-
+!
 ! === LG ===
 ||ngfts.lge.com^$important
 ||us.ibs.lgappstv.com^$important
-
+!
 ! === VIZIO ===
 ||ads.vizio.com^$important
-
+!
 ! === BYTEDANCE / TIKTOK ===
 ||lf-static.tiktokpangle-cdn-us.com.box^$important
-
+!
 ! === QUORA ===
 ||pixel.quora.com^$important
-
-! === MAJOR RU TECH, RETAIL & FINANCE ===
+!
+! === RU MAJOR (OZON / AVITO / HH / X5 / CDEK / ALFABANK / MTS / SOVCOMBANK / RUSTORE / WHOOSH / KONTUR) ===
 ||sentry.ozon.ru.box^$important
-||sentry.ozon.ru^$important
 ||sentry26-test.avito.ru^$important
 ||static.avito.ru^$important
 ||stats.avito.ru.box^$important
@@ -185,11 +192,11 @@
 ||appmetrica.sovcombank.ru^$important
 ||app-analytics.whoosh.bike^$important
 ||sentry.kontur.host^$important
-
+!
 ! ==========================================
 ! === SPECIFIC SERVICES & INFRASTRUCTURE ===
 ! ==========================================
-
+!
 ! === APPSFLYER SDK ===
 ||hqzcmw-launches.appsflyersdk.com.box^$important
 ||cqohtp.inapps.appsflyersdk.com.box^$important
@@ -204,30 +211,29 @@
 ||cqonnw-inapps.appsflyersdk.com.box^$important
 ||cdn-settings.appsflyersdk.com.box^$important
 ||app.appsflyers.com^$important
-
-! === SENTRY & INDEPENDENT CRASH REPORTS ===
+!
+! === SENTRY & CRASH REPORTING ===
 ||sentry-relay.avs.io^$important
 ||o33249.ingest.sentry.io.box^$important
 ||o1118521.ingest.us.sentry.io.box^$important
 ||sentry-relay.eu-north-1.avs.io^$important
 ||sentry-devtools.qsrapp.ru^$important
 ||sentry.io^$important
-
-! === CDNS & STATIC STORAGE ===
+!
+! === CDN & STATIC INFRASTRUCTURE ===
 ||a708.dsct.akamai.net^$important
 ||a1956.dscw154.akamai.net^$important
 ||akamai.net^$important
 ||akamaiedge.net^$important
 ||cdn.jsdelivr.net^$important
 ||static-storage.net^$important
-||yandex-pogoda.static-storage.net^$important
 ||st.aestatic.net^$important
 ||content-static.pstatic.net^$important
 ||epik-static-nres.pstatic.net^$important
 ||ssl.p.jwpcdn.com^$important
 ||static-gg.servicecdn.ru^$important
-
-! === ADS, PROMO & ANALYTICS (NETWORKS) ===
+!
+! === ADS / PROMO / ANALYTICS NETWORKS ===
 ||ads.adfox.ru.box^$important
 ||config.ads.vungle.com.box^$important
 ||events.ads.vungle.com.box^$important
@@ -254,8 +260,9 @@
 ||apity.ris.promo^$important
 ||ris.promo^$important
 ||api.ris.promo^$important
-
-! === COOKIES, CONSENT & FINGERPRINTING ===
+||static.insales-cdn.com^$important
+!
+! === COOKIES / CONSENT / FINGERPRINTING ===
 ||geo.cookie-script.com^$important
 ||cookies-data.onetrust.io^$important
 ||www.cookiebot.com^$important
@@ -265,8 +272,8 @@
 ||whotracks.me^$important
 ||trace-flow.ru^$important
 ||trackcmp.net^$important
-
-! === BOT CONTROL & SERVICES ===
+!
+! === BOT SERVICES ===
 ||bot.gslb.gosuslugi.ru^$important
 ||bot.gosuslugi.ru^$important
 ||alectryon.walletbot.me^$important
@@ -274,11 +281,11 @@
 ||walletbot.me^$important
 ||bot.jaicp.com^$important
 ||daos.walletbot.me^$important
-
-! === SYSTEM, SECURITY & MISC ===
+!
+! === MISC / SYSTEM / SECURITY ===
+||h3.apis.apple.map.fastly.net^$important
 ||fota-secure-dn.ospserver.net^$important
 ||static.nvidiagrid.net^$important
-||static.insales-cdn.com^$important
 ||static.rambler.ru^$important
 ||static4.banki.ru^$important
 ||static3.banki.ru^$important
@@ -288,7 +295,6 @@
 ||combat-log.tanki.su^$important
 ||frontlogger.dodois.io.box^$important
 ||telemetry.robokassa.ru^$important
-||detectportal.firefox.com^$important
 ||secure.globalsign.com^$important
 ||filters.adtidy.org^$important
 ||widget.intercom.io^$important
@@ -316,3 +322,10 @@
 ||api.telemetry.cloud.com^$important
 ||datatracker.ietf.org^$important
 ||update.ultraviewer.net^$important
+||ascstats.iobit.com^$important
+||ocsp.sectigo.com^$important
+||stats.iobit.com^$important
+||api-mifit.huami.com^$important
+||retracker.local^$important
+||tracker.smartcallback.ru^$important
+!
