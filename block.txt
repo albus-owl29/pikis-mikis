@@ -82,6 +82,9 @@
 ||tracking.ott.yandex.net^$important
 ||yandex-pogoda.static-storage.net^$important
 ||static.dzeninfra.ru^$important
+||static-maps.yandex.ru^$important
+||external-static-resolver.mediabilling.yandex.net^$important
+||static-pano.maps.yandex.ru^$important
 !
 ! === MICROSOFT / GITHUB / WINDOWS UPDATE ===
 ||officeclient.microsoft.com^$important
@@ -93,6 +96,7 @@
 ||slscr.update.microsoft.com^$important
 ||download.windowsupdate.com^$important
 ||oneocsp.microsoft.com^$important
+||otelrules.svc.static.microsoft^$important
 !
 ! === AMAZON / AWS ===
 ||mads.amazon-adsystem.com.box^$important
@@ -117,8 +121,10 @@
 ||ads.vk.com^$important
 ||static.vk.com^$important
 !
-! === META / FACEBOOK ===
+! === META / FACEBOOK / INSTAGRAM / WHATSAPP ===
 ||tr.facebook.com^$important
+||static.cdninstagram.com^$important
+||static.whatsapp.net^$important
 !
 ! === X / TWITTER ===
 ||ads-api.twitter.com^$important
@@ -126,7 +132,6 @@
 ||analytics.twitter.com^$important
 ||ads-api.x.com^$important
 ||business.x.com^$important
-||detectportal.firefox.com^$important
 !
 ! === T-BANK / TINKOFF ===
 ||error-hub.tinkoff.ru^$important
@@ -142,6 +147,13 @@
 ||confucius-public-configs.t-static.ru^$important
 ||ms-ads-image.t-static.ru^$important
 ||track.tbank.ru^$important
+||sso-forms-prod.t-static.ru^$important
+||mf-platform-production.t-static.ru^$important
+||cdn-webview.t-static.ru^$important
+||email.t-static.ru^$important
+||static2.tinkoffjournal.ru^$important
+||short-url-media.t-static.ru^$important
+||ps.t-static.ru^$important
 !
 ! === WILDBERRIES / WB ===
 ||ads-media.wildberries.ru^$important
@@ -172,6 +184,12 @@
 ! === QUORA ===
 ||pixel.quora.com^$important
 !
+! === DEEPSEEK ===
+||fe-static.deepseek.com^$important
+!
+! === OPENAI ===
+||api.oaistatsig.com^$important
+!
 ! === RU MAJOR (OZON / AVITO / HH / X5 / CDEK / ALFABANK / MTS / SOVCOMBANK / RUSTORE / WHOOSH / KONTUR) ===
 ||sentry.ozon.ru.box^$important
 ||sentry26-test.avito.ru^$important
@@ -192,6 +210,8 @@
 ||appmetrica.sovcombank.ru^$important
 ||app-analytics.whoosh.bike^$important
 ||sentry.kontur.host^$important
+||pixel.id.x5.ru^$important
+||catalog-images.x5static.net^$important
 !
 ! ==========================================
 ! === SPECIFIC SERVICES & INFRASTRUCTURE ===
@@ -232,6 +252,12 @@
 ||epik-static-nres.pstatic.net^$important
 ||ssl.p.jwpcdn.com^$important
 ||static-gg.servicecdn.ru^$important
+||static-widgets-content-distribution.owhealth.com.cdn.cloudflare.net^$important
+||statcore.hitmcdn.com^$important
+||4c-2f-63-r505.cloustates.org^$important
+||sf19-static.i18n-pglstatp.com^$important
+||premier-static.rtbcdn.ru^$important
+||static.rtbcdn.ru^$important
 !
 ! === ADS / PROMO / ANALYTICS NETWORKS ===
 ||ads.adfox.ru.box^$important
@@ -261,6 +287,14 @@
 ||ris.promo^$important
 ||api.ris.promo^$important
 ||static.insales-cdn.com^$important
+||stat4.russianfood.com^$important
+||static.tacdn.com^$important
+||static-mobile.boosty.to^$important
+||feedot.statsget.com^$important
+||static.pepy.tech^$important
+||static.1000.menu^$important
+||static.kinoafisha.info^$important
+||static.mira.top^$important
 !
 ! === COOKIES / CONSENT / FINGERPRINTING ===
 ||geo.cookie-script.com^$important
@@ -283,6 +317,7 @@
 ||daos.walletbot.me^$important
 !
 ! === MISC / SYSTEM / SECURITY ===
+||detectportal.firefox.com^$important
 ||h3.apis.apple.map.fastly.net^$important
 ||fota-secure-dn.ospserver.net^$important
 ||static.nvidiagrid.net^$important
