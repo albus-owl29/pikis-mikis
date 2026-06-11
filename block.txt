@@ -9,9 +9,7 @@
 ! === GOOGLE / ALPHABET / YOUTUBE / FIREBASE ===
 ||www.googleadservices.com^$important
 ||securitydomain-pa.googleapis.com.box^$important
-||lh3.googleusercontent.com^$important
 ||drive-thirdparty.googleusercontent.com^$important
-||lh3.google.com^$important
 ||ogs.google.com^$important
 ||stun4.l.google.com^$important
 ||stun3.l.google.com^$important
@@ -21,13 +19,9 @@
 ||www.google-analytics.com.box^$important
 ||region1.analytics.google.com.box^$important
 ||crashlyticsreports-pa.googleapis.com.box^$important
-||gstatic.com.box^$important
-||connectivitycheck.gstatic.com^$important
-||encrypted-tbn2.gstatic.com.box^
 ||appsgrowthpromo-pa.googleapis.com.box^$important
 ||xgapromomanager-pa.googleapis.com.box^$important
 ||firebaselogging.googleapis.com.box^
-||ajax.googleapis.com^$important
 ||firebase-settings.crashlytics.com.box^$important
 ||firebaselogging-pa.googleapis.com.box^$important
 ||redirector.googlevideo.com^$important
