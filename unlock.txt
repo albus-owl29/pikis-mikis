@@ -38,6 +38,8 @@
 @@||www.nvidia.com^$important
 @@||international-gfe.download.nvidia.com^$important
 @@||images.nvidia.com^$important
+@@||ogs.google.com^$important
+@@||gfwsl.geforce.com^$important
 !
 ! === ZEPP / AMAZFIT ===
 @@||upload-cdn.zepp.com^$important
