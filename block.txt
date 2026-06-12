@@ -32,30 +32,9 @@
 ||pagead.l.doubleclick.net^$important
 !
 ! === APPLE / ICLOUD ===
-||inappcheck.itunes.apple.com^$important
-||gateway.icloud.com^$important
-||gateway.fe2.apple-dns.net^$important
-||14-courier2.push.apple.com^$important
-||11-courier2.push.apple.com^$important
-||sandbox.itunes.apple.com^$important
-||gspe79-cdn.g.aaplimg.com^$important
-||ocsp2.apple.com^$important
-||mask-api.fe2.apple-dns.net^$important
-||app-site-association.cdn-apple.com^$important
-||cdn-h3.g.aaplimg.com^$important
-||updates.cdn-apple.com^$important
-||init.push-apple.com.akadns.net^$important
-||apps.mzstatic.com^$important
-||s.mzstatic.com^$important
-||assets-mercury.mzstatic.com^
+||mzstatic.com^$important
 ||static.gc.apple.com^$important
-||is1-ssl.mzstatic.com^$important
-||is4-ssl.mzstatic.com^$important
-||is3-ssl.mzstatic.com^$important
 ||statici.icloud.com^$important
-||ontology.health.apple.com^$important
-||h3.apis.apple.map.fastly.net^$important
-||g.aaplimg.com^$important
 !
 ! === YANDEX / DZEN / YANGO ===
 ||verify.yandex.ru^$important
