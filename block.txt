@@ -7,7 +7,7 @@
 ! ==========================================
 !
 ! === GOOGLE / ALPHABET / YOUTUBE / FIREBASE ===
-||[www.googleadservices.com](https://www.google.com/search?q=https%3A%2F%2Fwww.googleadservices.com)^$important
+||googleadservices.com^$important
 ||securitydomain-pa.googleapis.com.box^$important
 ||drive-thirdparty.googleusercontent.com^$important
 ||ogs.google.com^$important
@@ -16,7 +16,7 @@
 ||alt6-mtalk.google.com^$important
 ||googleads.g.doubleclick.net.box^$important
 ||ad.doubleclick.net.box^$important
-||[www.google-analytics.com](https://www.google.com/search?q=https%3A%2F%2Fwww.google-analytics.com).box^$important
+||google-analytics.com.box^$important
 ||region1.analytics.google.com.box^$important
 ||crashlyticsreports-pa.googleapis.com.box^$important
 ||appsgrowthpromo-pa.googleapis.com.box^$important
@@ -27,8 +27,8 @@
 ||redirector.googlevideo.com^$important
 ||dai.google.com^$important
 ||s.youtube.com^$important
-||doubleclick.net^
-||doubleclick.com^
+||doubleclick.net^$important
+||doubleclick.com^$important
 ||pagead.l.doubleclick.net^$important
 !
 ! === APPLE / ICLOUD ===
@@ -132,6 +132,8 @@
 ||analytics.twitter.com^$important
 ||ads-api.x.com^$important
 ||business.x.com^$important
+||ads-api.x.com^$important
+||ads.x.com^$important
 !
 ! === T-BANK / TINKOFF ===
 ||error-hub.tinkoff.ru^$important
@@ -166,7 +168,7 @@
 ! === SAMSUNG ===
 ||vas.samsungapps.com^$important
 ||ru-odc.samsungapps.com^$important
-||[www.samsungsds.com](https://www.google.com/search?q=https%3A%2F%2Fwww.samsungsds.com)^$important
+||[samsungsds.com^$important
 !
 ! === LENOVO ===
 ||a.lenovo.com^$important
@@ -269,6 +271,7 @@
 ||static.insales-cdn.com^$important
 ||static.tacdn.com^$important
 ||static-mobile.boosty.to^$important
+||feedot.statsget.com^$important
 ||static.pepy.tech^$important
 ||static.1000.menu^$important
 ||static.kinoafisha.info^$important
@@ -283,7 +286,7 @@
 ||apptracking.retailrocket.ru^$important
 ||pixel.adlooxtracking.ru^$important
 ||pixelswhirl.com^$important
-||[www.awin1.com](https://www.google.com/search?q=https%3A%2F%2Fwww.awin1.com)^$important
+||awin1.com^$important
 ||promo.rutubelist.ru^$important
 ||ad.adriver.ru.box^$important
 ||content.adriver.ru.box^$important
@@ -302,7 +305,6 @@
 ||ris.promo^$important
 ||api.ris.promo^$important
 ||stat4.russianfood.com^$important
-||feedot.statsget.com^$important
 ||bidderstack.com^$important
 ||xdeep.space^$important
 ||opendsp.ru^$important
@@ -343,7 +345,7 @@
 ! === COOKIES / CONSENT / FINGERPRINTING ===
 ||geo.cookie-script.com^$important
 ||cookies-data.onetrust.io^$important
-||[www.cookiebot.com](https://www.google.com/search?q=https%3A%2F%2Fwww.cookiebot.com)^$important
+||cookiebot.com^$important
 ||cookiebot.com^$important
 ||autocookie.org^$important
 ||fingerprint.com^$important
