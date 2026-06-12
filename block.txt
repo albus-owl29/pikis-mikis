@@ -224,19 +224,7 @@
 ! ==========================================
 !
 ! === APPSFLYER SDK ===
-||hqzcmw-launches.appsflyersdk.com.box^$important
-||cqohtp.inapps.appsflyersdk.com.box^$important
-||inapps.appsflyersdk.com.box^$important
-||zugkc4.cdn-settings.appsflyersdk.com.box^$important
-||l29dvm-cdn-settings.appsflyersdk.com.box^$important
-||kiqsrh-cdn-settings.appsflyersdk.com.box^$important
-||kiqsrh-inapps.appsflyersdk.com.box^$important
-||hqzcmw-cdn-settings.appsflyersdk.com.box^$important
-||cqohtp.cdn-settings.appsflyersdk.com.box^$important
-||launches.appsflyersdk.com.box^$important
-||cqonnw-inapps.appsflyersdk.com.box^$important
-||cdn-settings.appsflyersdk.com.box^$important
-||app.appsflyers.com^$important
+||appsflyersdk.com.box^$important
 ||appsflyers.com^$important
 !
 ! === SENTRY & CRASH REPORTING ===
@@ -336,7 +324,7 @@
 ||shareasale-analytics.com^$important
 ||bnc.lt^$important
 ||cdn.taboola.com^$important
-||[www.thetradedesk.com](https://www.google.com/search?q=https%3A%2F%2Fwww.thetradedesk.com)^$important
+||thetradedesk.com^$important
 ||zenaps.com^$important
 ||thetradedesk.com^$important
 ||ssp.adseedtech.com^$important
