@@ -7,7 +7,7 @@
 ! ==========================================
 !
 ! === GOOGLE / ALPHABET / YOUTUBE / FIREBASE ===
-||www.googleadservices.com^$important
+||[www.googleadservices.com](https://www.google.com/search?q=https%3A%2F%2Fwww.googleadservices.com)^$important
 ||securitydomain-pa.googleapis.com.box^$important
 ||drive-thirdparty.googleusercontent.com^$important
 ||ogs.google.com^$important
@@ -16,7 +16,7 @@
 ||alt6-mtalk.google.com^$important
 ||googleads.g.doubleclick.net.box^$important
 ||ad.doubleclick.net.box^$important
-||www.google-analytics.com.box^$important
+||[www.google-analytics.com](https://www.google.com/search?q=https%3A%2F%2Fwww.google-analytics.com).box^$important
 ||region1.analytics.google.com.box^$important
 ||crashlyticsreports-pa.googleapis.com.box^$important
 ||appsgrowthpromo-pa.googleapis.com.box^$important
@@ -29,6 +29,7 @@
 ||s.youtube.com^$important
 ||doubleclick.net^
 ||doubleclick.com^
+||pagead.l.doubleclick.net^$important
 !
 ! === APPLE / ICLOUD ===
 ||inappcheck.itunes.apple.com^$important
@@ -53,6 +54,8 @@
 ||is3-ssl.mzstatic.com^$important
 ||statici.icloud.com^$important
 ||ontology.health.apple.com^$important
+||h3.apis.apple.map.fastly.net^$important
+||g.aaplimg.com^$important
 !
 ! === YANDEX / DZEN / YANGO ===
 ||verify.yandex.ru^$important
@@ -79,6 +82,7 @@
 ||static-maps.yandex.ru^$important
 ||external-static-resolver.mediabilling.yandex.net^$important
 ||static-pano.maps.yandex.ru^$important
+||ads.adfox.ru.box^$important
 !
 ! === MICROSOFT / GITHUB / WINDOWS UPDATE ===
 ||officeclient.microsoft.com^$important
@@ -91,6 +95,7 @@
 ||download.windowsupdate.com^$important
 ||oneocsp.microsoft.com^$important
 ||otelrules.svc.static.microsoft^$important
+||settings-win.data.microsoft.com^$important
 !
 ! === AMAZON / AWS ===
 ||mads.amazon-adsystem.com.box^$important
@@ -119,6 +124,7 @@
 ||tr.facebook.com^$important
 ||static.cdninstagram.com^$important
 ||static.whatsapp.net^$important
+||pixel.facebook.com^$important
 !
 ! === X / TWITTER ===
 ||ads-api.twitter.com^$important
@@ -160,7 +166,7 @@
 ! === SAMSUNG ===
 ||vas.samsungapps.com^$important
 ||ru-odc.samsungapps.com^$important
-||www.samsungsds.com^$important
+||[www.samsungsds.com](https://www.google.com/search?q=https%3A%2F%2Fwww.samsungsds.com)^$important
 !
 ! === LENOVO ===
 ||a.lenovo.com^$important
@@ -174,6 +180,10 @@
 !
 ! === BYTEDANCE / TIKTOK ===
 ||lf-static.tiktokpangle-cdn-us.com.box^$important
+||business-api.tiktok.com^$important
+!
+! === HUAWEI ===
+||ads.huawei.com^$important
 !
 ! === QUORA ===
 ||pixel.quora.com^$important
@@ -225,6 +235,7 @@
 ||cqonnw-inapps.appsflyersdk.com.box^$important
 ||cdn-settings.appsflyersdk.com.box^$important
 ||app.appsflyers.com^$important
+||appsflyers.com^$important
 !
 ! === SENTRY & CRASH REPORTING ===
 ||sentry-relay.avs.io^$important
@@ -233,6 +244,7 @@
 ||sentry-relay.eu-north-1.avs.io^$important
 ||sentry-devtools.qsrapp.ru^$important
 ||sentry.io^$important
+||sentry-cdn.com^$important
 !
 ! === CDN & STATIC INFRASTRUCTURE ===
 ||a708.dsct.akamai.net^$important
@@ -252,9 +264,18 @@
 ||sf19-static.i18n-pglstatp.com^$important
 ||premier-static.rtbcdn.ru^$important
 ||static.rtbcdn.ru^$important
+||kinescopecdn.net^$important
+||kinescope.io^$important
+||static.insales-cdn.com^$important
+||static.tacdn.com^$important
+||static-mobile.boosty.to^$important
+||static.pepy.tech^$important
+||static.1000.menu^$important
+||static.kinoafisha.info^$important
+||static.mira.top^$important
+||yastatic-net.ru^$important
 !
 ! === ADS / PROMO / ANALYTICS NETWORKS ===
-||ads.adfox.ru.box^$important
 ||config.ads.vungle.com.box^$important
 ||events.ads.vungle.com.box^$important
 ||eye.targetads.io.box^$important
@@ -262,7 +283,7 @@
 ||apptracking.retailrocket.ru^$important
 ||pixel.adlooxtracking.ru^$important
 ||pixelswhirl.com^$important
-||www.awin1.com^$important
+||[www.awin1.com](https://www.google.com/search?q=https%3A%2F%2Fwww.awin1.com)^$important
 ||promo.rutubelist.ru^$important
 ||ad.adriver.ru.box^$important
 ||content.adriver.ru.box^$important
@@ -280,26 +301,60 @@
 ||apity.ris.promo^$important
 ||ris.promo^$important
 ||api.ris.promo^$important
-||static.insales-cdn.com^$important
 ||stat4.russianfood.com^$important
-||static.tacdn.com^$important
-||static-mobile.boosty.to^$important
 ||feedot.statsget.com^$important
-||static.pepy.tech^$important
-||static.1000.menu^$important
-||static.kinoafisha.info^$important
-||static.mira.top^$important
+||bidderstack.com^$important
+||xdeep.space^$important
+||opendsp.ru^$important
+||onetarget.ru^$important
+||linkssp.ru^$important
+||a.lotus-dsp.ru^$important
+||dsp.nt.technology^$important
+||targetrtb.com^$important
+||surfy.space^$important
+||adsp.io^$important
+||pxltag.com^$important
+||bid.sspnet.tech^$important
+||kombinat.digital^$important
+||ctrltech.ai^$important
+||gonet-ads.com^$important
+||winline.ru^$important
+||videolink.host^$important
+||cm-ssp.voxexchange.io^$important
+||adspend.space^$important
+||bs.serving-sys.ru^$important
+||vast.ufouxbwn.com^$important
+||control.adjust.com^$important
+||app.adjust.com^$important
+||api.impact.com.cdn.cloudflare.net^$important
+||impact.com^$important
+||list-manage.com^$important
+||px.srvcs.tumblr.com^$important
+||is.com^$important
+||shareasale-analytics.com^$important
+||bnc.lt^$important
+||cdn.taboola.com^$important
+||[www.thetradedesk.com](https://www.google.com/search?q=https%3A%2F%2Fwww.thetradedesk.com)^$important
+||zenaps.com^$important
+||thetradedesk.com^$important
+||ssp.adseedtech.com^$important
+||adv.widdimo.com^$important
 !
 ! === COOKIES / CONSENT / FINGERPRINTING ===
 ||geo.cookie-script.com^$important
 ||cookies-data.onetrust.io^$important
-||www.cookiebot.com^$important
+||[www.cookiebot.com](https://www.google.com/search?q=https%3A%2F%2Fwww.cookiebot.com)^$important
+||cookiebot.com^$important
 ||autocookie.org^$important
 ||fingerprint.com^$important
 ||fingerprintjs.com^$important
 ||whotracks.me^$important
 ||trace-flow.ru^$important
 ||trackcmp.net^$important
+||privacy-center.org^$important
+||app.usercentrics.eu^$important
+||privacy-mgmt.com^$important
+||trustarc.com^$important
 !
 ! === BOT SERVICES ===
 ||bot.gslb.gosuslugi.ru^$important
@@ -312,7 +367,6 @@
 !
 ! === MISC / SYSTEM / SECURITY ===
 ||detectportal.firefox.com^$important
-||h3.apis.apple.map.fastly.net^$important
 ||fota-secure-dn.ospserver.net^$important
 ||static.nvidiagrid.net^$important
 ||static.rambler.ru^$important
@@ -337,11 +391,9 @@
 ||mobile-static.mindbox.ru^$important
 ||static.tildacdn.com^$important
 ||stat.tildaapi.com^$important
-||yastatic-net.ru^$important
 ||web-static-no-content.s.mindbox.ru^$important
 ||web-static.s.mindbox.ru^$important
 ||web-static.mindbox.ru^$important
-||control.adjust.com^$important
 ||mineralt.io^$important
 ||minero.cc^$important
 ||greatis.com^$important
@@ -357,4 +409,5 @@
 ||api-mifit.huami.com^$important
 ||retracker.local^$important
 ||tracker.smartcallback.ru^$important
+||hcaptcha.com^$important
 !
