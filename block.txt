@@ -50,12 +50,11 @@
 ||mediabilling.yandex.net^$important
 ||static-pano.maps.yandex.ru^$important
 ||adfox.ru^$important
-
 !
 ! === MICROSOFT / GITHUB / WINDOWS UPDATE ===
 ||officeclient.microsoft.com^$important
 ||mrodevicemgr.officeapps.live.com^$important
-||geo.prod.do.dsp.mp.microsoft.com^$important
+||dsp.mp.microsoft.com^$important
 ||windowsupdate.com^$important
 ||update.microsoft.com^$important
 ||download.windowsupdate.com^$important
@@ -75,6 +74,8 @@
 ||otvet-static.cdn-vk.net^$important
 ||ads.vk.com^$important
 ||static.vk.com^$important
+||st.vk.ru^$important
+||static.vk.ru^$important
 !
 ! === META / FACEBOOK / INSTAGRAM / WHATSAPP ===
 ||tr.facebook.com^$important
@@ -88,7 +89,6 @@
 ||analytics.twitter.com^$important
 ||ads-api.x.com^$important
 ||business.x.com^$important
-||ads.x.com^$important
 !
 ! === T-BANK / TINKOFF ===
 ||error-hub.tinkoff.ru^$important
@@ -138,14 +138,18 @@
 ! === OPENAI ===
 ||api.oaistatsig.com^$important
 !
-! === RU MAJOR (OZON / AVITO / HH / X5 / CDEK / ALFABANK / MTS / SOVCOMBANK / RUSTORE / WHOOSH / KONTUR) ===
+! === RU MAJOR (OZON / AVITO / HH / X5 / CDEK / ALFABANK / MTS / SOVCOMBANK / RUSTORE / WHOOSH / KONTUR / ALABUGA) ===
 ||sentry.ozon.ru^$important
+||ev.ozon.ru^$important
 ||sentry26-test.avito.ru^$important
 ||static.avito.ru^$important
 ||stats.avito.ru^$important
+||ads-storage.avito.ru^$important
 ||sentry.hh.ru^$important
 ||ads.x5media.ru^$important
 ||sentry.x5.ru^$important
+||x5static.net^$important
+||pixel.id.x5.ru^$important
 ||supersentry.cdek.ru^$important
 ||metrics.alfabank.ru^$important
 ||sentry-mobile.alfabank.ru^$important
@@ -153,11 +157,10 @@
 ||ads.rustore.ru^$important
 ||stats.rustore.ru^$important
 ||static.a.mts.ru^$important
-||x5static.net^$important
 ||appmetrica.sovcombank.ru^$important
 ||app-analytics.whoosh.bike^$important
 ||sentry.kontur.host^$important
-||pixel.id.x5.ru^$important
+||alabuga.ru^$important
 !
 ! ==========================================
 ! === SPECIFIC SERVICES & INFRASTRUCTURE ===
@@ -184,12 +187,12 @@
 ||cloustates.org^$important
 ||i18n-pglstatp.com^$important
 ||premier-static.rtbcdn.ru^$important
-||static.rtbcdn.ru^$important
+||rtbcdn.ru^$important
 ||static.insales-cdn.com^$important
 ||static.tacdn.com^$important
 ||static-mobile.boosty.to^$important
 ||statsget.com^$important
-||static.pepy.tech^$important
+||pepy.tech^$important
 ||static.1000.menu^$important
 ||static.kinoafisha.info^$important
 ||static.mira.top^$important
@@ -199,7 +202,7 @@
 ||ads.vungle.com^$important
 ||targetads.io^$important
 ||unityads.unity3d.com^$important
-||apptracking.retailrocket.ru^$important
+||retailrocket.ru^$important
 ||adlooxtracking.ru^$important
 ||pixelswhirl.com^$important
 ||awin1.com^$important
@@ -207,7 +210,7 @@
 ||adriver.ru^$important
 ||analytics.dns-shop.ru^$important
 ||tracking.retailrocket.ru^$important
-||analytics-tcp.mintegral.net^$important
+||mintegral.net^$important
 ||reports.exodus-privacy.eu.org^$important
 ||counter.insales.com^$important
 ||ironsource.mobi^$important
@@ -220,7 +223,6 @@
 ||bidderstack.com^$important
 ||xdeep.space^$important
 ||opendsp.ru^$important
-||onetarget.ru^$important
 ||linkssp.ru^$important
 ||lotus-dsp.ru^$important
 ||nt.technology^$important
@@ -251,6 +253,16 @@
 ||thetradedesk.com^$important
 ||adseedtech.com^$important
 ||widdimo.com^$important
+||vqserve.com^$important
+||adserv.ai^$important
+||betcity.ru^$important
+||top100.ru^$important
+||bringads.ru^$important
+||dvgroup.com^$important
+||qtarget.tech^$important
+||nominaltechno.com^$important
+||solta.io^$important
+||viqeo.tv^$important
 !
 ! === COOKIES / CONSENT / FINGERPRINTING ===
 ||cookie-script.com^$important
@@ -299,4 +311,3 @@
 ||ascstats.iobit.com^$important
 ||stats.iobit.com^$important
 ||smartcallback.ru^$important
-!
