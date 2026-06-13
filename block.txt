@@ -38,12 +38,11 @@
 !
 ! === YANDEX / DZEN / YANGO ===
 ||verify.yandex.ru^$important
-||cdnrhkgfkkpupuotntfj.svc.cdn.yandex.net^$important
-||cloudcdn-spbmiran-26.cdn.yandex.net^$important
-||startup.appmetrica.yango.com^$important
-||redirect.appmetrica.yandex.com^$important
-||rosenberg.appmetrica.yandex.net.box^$important
-||report.appmetrica.yandex.net.box^$important
+||svc.cdn.yandex.net^$important
+||cdn.yandex.net^$important
+||appmetrica.yango.com^$important
+||appmetrica.yandex.com^$important
+||appmetrica.yandex.net.box^$important
 ||report.appmetrica.yango.com^$important
 ||static.yandex.net^$important
 ||cdn-static.video.cloud.yandex.net^$important
@@ -51,17 +50,16 @@
 ||answers-static.s3.yandex.net^$important
 ||appmetrica.yandex.ru^$important
 ||metrika.yandex.ru^$important
-||ext-strm-ruspb01mgfn-01.strm.yandex.net^$important
 ||api.browser.yandex.ru^$important
 ||media-adv.market.yandex.ru^$important
 ||media-adv.vs.market.yandex.net^$important
 ||tracking.ott.yandex.net^$important
-||yandex-pogoda.static-storage.net^$important
+||static-storage.net^$important
 ||static.dzeninfra.ru^$important
 ||static-maps.yandex.ru^$important
-||external-static-resolver.mediabilling.yandex.net^$important
+||mediabilling.yandex.net^$important
 ||static-pano.maps.yandex.ru^$important
-||ads.adfox.ru.box^$important
+||adfox.ru.box^$important
 !
 ! === MICROSOFT / GITHUB / WINDOWS UPDATE ===
 ||officeclient.microsoft.com^$important
