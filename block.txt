@@ -8,28 +8,21 @@
 !
 ! === GOOGLE / ALPHABET / YOUTUBE / FIREBASE ===
 ||googleadservices.com^$important
-||securitydomain-pa.googleapis.com.box^$important
-||drive-thirdparty.googleusercontent.com^$important
-||ogs.google.com^$important
-||stun4.l.google.com^$important
-||stun3.l.google.com^$important
-||alt6-mtalk.google.com^$important
-||googleads.g.doubleclick.net.box^$important
-||ad.doubleclick.net.box^$important
-||google-analytics.com.box^$important
-||region1.analytics.google.com.box^$important
-||crashlyticsreports-pa.googleapis.com.box^$important
-||appsgrowthpromo-pa.googleapis.com.box^$important
-||xgapromomanager-pa.googleapis.com.box^$important
-||firebaselogging.googleapis.com.box^
-||firebase-settings.crashlytics.com.box^$important
-||firebaselogging-pa.googleapis.com.box^$important
+||google-analytics.com^$important
+||analytics.google.com^$important
+||crashlyticsreports-pa.googleapis.com^$important
+||appsgrowthpromo-pa.googleapis.com^$important
+||xgapromomanager-pa.googleapis.com^$important
+||firebaselogging.googleapis.com^
+||crashlytics.com^$important
+||firebaselogging-pa.googleapis.com^$important
 ||redirector.googlevideo.com^$important
 ||dai.google.com^$important
 ||s.youtube.com^$important
 ||doubleclick.net^$important
 ||doubleclick.com^$important
-||pagead.l.doubleclick.net^$important
+||doubleclick.net^$important
+||doubleclick.сom^$important
 !
 ! === APPLE / ICLOUD ===
 ||mzstatic.com^$important
@@ -42,7 +35,7 @@
 ||cdn.yandex.net^$important
 ||appmetrica.yango.com^$important
 ||appmetrica.yandex.com^$important
-||appmetrica.yandex.net.box^$important
+||appmetrica.yandex.net^$important
 ||report.appmetrica.yango.com^$important
 ||static.yandex.net^$important
 ||cdn-static.video.cloud.yandex.net^$important
@@ -59,27 +52,26 @@
 ||static-maps.yandex.ru^$important
 ||mediabilling.yandex.net^$important
 ||static-pano.maps.yandex.ru^$important
-||adfox.ru.box^$important
+||adfox.ru^$important
+||adfox.ru^$important
+
 !
 ! === MICROSOFT / GITHUB / WINDOWS UPDATE ===
 ||officeclient.microsoft.com^$important
 ||mrodevicemgr.officeapps.live.com^$important
 ||geo.prod.do.dsp.mp.microsoft.com^$important
-||curbengh.github.io^$important
-||ctldl.windowsupdate.com^$important
-||fe2cr.update.microsoft.com^$important
-||slscr.update.microsoft.com^$important
+||windowsupdate.com^$important
+||update.microsoft.com^$important
 ||download.windowsupdate.com^$important
 ||oneocsp.microsoft.com^$important
-||otelrules.svc.static.microsoft^$important
-||settings-win.data.microsoft.com^$important
+||static.microsoft^$important
+||data.microsoft.com^$important
 !
 ! === AMAZON / AWS ===
-||mads.amazon-adsystem.com.box^$important
-||c.amazon-adsystem.com.box^$important
-||aax-eu.amazon-adsystem.com.box^$important
-||mdtb-eu-2.ads.aps.amazon-adsystem.com.box^$important
-||checkip.amazonaws.com.box^$important
+||amazon-adsystem.com^$important
+||amazon-adsystem.com^$important
+||checkip.amazonaws.com^$important
+||checkip.amazonaws.com^$important
 ||mads-eu.amazon.com^$important
 !
 ! === VK / MAIL.RU / OK ===
@@ -87,12 +79,12 @@
 ||st.mycdn.me^$important
 ||vu.mycdn.me^$important
 ||ovu.mycdn.me^$important
-||tracker-api.vk-analytics.ru.box^$important
-||ip4.tracker-api.my.com.box^$important
-||ts.tracker-api.vk-analytics.ru.box^$important
-||ts.tracker-api.my.com.box^$important
-||tracker-api.my.com.box^$important
-||ip4.tracker-api.vk-analytics.ru.box^$important
+||tracker-api.vk-analytics.ru^$important
+||ip4.tracker-api.my.com^$important
+||ts.tracker-api.vk-analytics.ru^$important
+||ts.tracker-api.my.com^$important
+||tracker-api.my.com^$important
+||ip4.tracker-api.vk-analytics.ru^$important
 ||otvet-static.cdn-vk.net^$important
 ||ads.vk.com^$important
 ||static.vk.com^$important
@@ -158,7 +150,7 @@
 ||ads.vizio.com^$important
 !
 ! === BYTEDANCE / TIKTOK ===
-||lf-static.tiktokpangle-cdn-us.com.box^$important
+||lf-static.tiktokpangle-cdn-us.com^$important
 ||business-api.tiktok.com^$important
 !
 ! === HUAWEI ===
@@ -174,10 +166,10 @@
 ||api.oaistatsig.com^$important
 !
 ! === RU MAJOR (OZON / AVITO / HH / X5 / CDEK / ALFABANK / MTS / SOVCOMBANK / RUSTORE / WHOOSH / KONTUR) ===
-||sentry.ozon.ru.box^$important
+||sentry.ozon.ru^$important
 ||sentry26-test.avito.ru^$important
 ||static.avito.ru^$important
-||stats.avito.ru.box^$important
+||stats.avito.ru^$important
 ||sentry.hh.ru^$important
 ||ads.x5media.ru^$important
 ||sentry.x5.ru^$important
@@ -186,8 +178,8 @@
 ||sentry-mobile.alfabank.ru^$important
 ||sentry-blitz-fe.mntprod.net^$important
 ||ads.rustore.ru^$important
-||stats.rustore.ru.box^$important
-||static.a.mts.ru.box^$important
+||stats.rustore.ru^$important
+||static.a.mts.ru^$important
 ||x5m-cdn.x5static.net^$important
 ||5ka-media.x5static.net^$important
 ||appmetrica.sovcombank.ru^$important
@@ -201,13 +193,13 @@
 ! ==========================================
 !
 ! === APPSFLYER SDK ===
-||appsflyersdk.com.box^$important
+||appsflyersdk.com^$important
 ||appsflyers.com^$important
 !
 ! === SENTRY & CRASH REPORTING ===
 ||sentry-relay.avs.io^$important
-||o33249.ingest.sentry.io.box^$important
-||o1118521.ingest.us.sentry.io.box^$important
+||o33249.ingest.sentry.io^$important
+||o1118521.ingest.us.sentry.io^$important
 ||sentry-relay.eu-north-1.avs.io^$important
 ||sentry-devtools.qsrapp.ru^$important
 ||sentry.io^$important
@@ -244,21 +236,21 @@
 ||yastatic-net.ru^$important
 !
 ! === ADS / PROMO / ANALYTICS NETWORKS ===
-||config.ads.vungle.com.box^$important
-||events.ads.vungle.com.box^$important
-||eye.targetads.io.box^$important
-||configv2.unityads.unity3d.com.box^$important
+||config.ads.vungle.com^$important
+||events.ads.vungle.com^$important
+||eye.targetads.io^$important
+||configv2.unityads.unity3d.com^$important
 ||apptracking.retailrocket.ru^$important
 ||pixel.adlooxtracking.ru^$important
 ||pixelswhirl.com^$important
 ||awin1.com^$important
 ||promo.rutubelist.ru^$important
-||ad.adriver.ru.box^$important
-||content.adriver.ru.box^$important
+||ad.adriver.ru^$important
+||content.adriver.ru^$important
 ||adv.adriver.ru^$important
-||analytics.dns-shop.ru.box^$important
+||analytics.dns-shop.ru^$important
 ||tracking.retailrocket.ru^$important
-||analytics-tcp.mintegral.net.box^$important
+||analytics-tcp.mintegral.net^$important
 ||reports.exodus-privacy.eu.org^$important
 ||counter.insales.com^$important
 ||ironsource.mobi^$important
@@ -343,13 +335,13 @@
 ||static.aviasales.com^$important
 ||kaspersky-labs.com^$important
 ||combat-log.tanki.su^$important
-||frontlogger.dodois.io.box^$important
+||frontlogger.dodois.io^$important
 ||telemetry.robokassa.ru^$important
 ||secure.globalsign.com^$important
 ||filters.adtidy.org^$important
 ||widget.intercom.io^$important
 ||ifconfig.me^$important
-||sdk-api.apptracer.ru.box^$important
+||sdk-api.apptracer.ru^$important
 ||platform-static-production.lesta.ru^$important
 ||static.rutube.ru^$important
 ||static-lstuscs.lesta.ru^$important
