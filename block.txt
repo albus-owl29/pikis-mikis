@@ -13,7 +13,7 @@
 ||crashlyticsreports-pa.googleapis.com^$important
 ||appsgrowthpromo-pa.googleapis.com^$important
 ||xgapromomanager-pa.googleapis.com^$important
-||firebaselogging.googleapis.com^
+||firebaselogging.googleapis.com^$important
 ||crashlytics.com^$important
 ||firebaselogging-pa.googleapis.com^$important
 ||redirector.googlevideo.com^$important
@@ -21,8 +21,6 @@
 ||s.youtube.com^$important
 ||doubleclick.net^$important
 ||doubleclick.com^$important
-||doubleclick.net^$important
-||doubleclick.сom^$important
 !
 ! === APPLE / ICLOUD ===
 ||mzstatic.com^$important
@@ -36,7 +34,6 @@
 ||appmetrica.yango.com^$important
 ||appmetrica.yandex.com^$important
 ||appmetrica.yandex.net^$important
-||report.appmetrica.yango.com^$important
 ||static.yandex.net^$important
 ||cdn-static.video.cloud.yandex.net^$important
 ||taxi-promotions.s3.yandex.net^$important
@@ -53,7 +50,6 @@
 ||mediabilling.yandex.net^$important
 ||static-pano.maps.yandex.ru^$important
 ||adfox.ru^$important
-||adfox.ru^$important
 
 !
 ! === MICROSOFT / GITHUB / WINDOWS UPDATE ===
@@ -69,22 +65,13 @@
 !
 ! === AMAZON / AWS ===
 ||amazon-adsystem.com^$important
-||amazon-adsystem.com^$important
-||checkip.amazonaws.com^$important
 ||checkip.amazonaws.com^$important
 ||mads-eu.amazon.com^$important
 !
 ! === VK / MAIL.RU / OK ===
-||api.mycdn.me^$important
 ||st.mycdn.me^$important
-||vu.mycdn.me^$important
-||ovu.mycdn.me^$important
-||tracker-api.vk-analytics.ru^$important
-||ip4.tracker-api.my.com^$important
-||ts.tracker-api.vk-analytics.ru^$important
-||ts.tracker-api.my.com^$important
+||vk-analytics.ru^$important
 ||tracker-api.my.com^$important
-||ip4.tracker-api.vk-analytics.ru^$important
 ||otvet-static.cdn-vk.net^$important
 ||ads.vk.com^$important
 ||static.vk.com^$important
@@ -101,30 +88,16 @@
 ||analytics.twitter.com^$important
 ||ads-api.x.com^$important
 ||business.x.com^$important
-||ads-api.x.com^$important
 ||ads.x.com^$important
 !
 ! === T-BANK / TINKOFF ===
 ||error-hub.tinkoff.ru^$important
 ||tads.tbank.ru^$important
-||fingerprint.t-static.ru^$important
-||ms-static-images.t-static.ru^$important
-||content-hub.t-static.ru^$important
-||ded-pwa-static-pages.t-static.ru^$important
-||nfs-imgproxy-cdn.t-static.ru^$important
+||t-static.ru^$important
 ||mobile-lifestyle-static-prod.cdn-tinkoff.ru^$important
 ||promokod.tbank.ru^$important
-||business.t-static.ru^$important
-||confucius-public-configs.t-static.ru^$important
-||ms-ads-image.t-static.ru^$important
 ||track.tbank.ru^$important
-||sso-forms-prod.t-static.ru^$important
-||mf-platform-production.t-static.ru^$important
-||cdn-webview.t-static.ru^$important
-||email.t-static.ru^$important
 ||static2.tinkoffjournal.ru^$important
-||short-url-media.t-static.ru^$important
-||ps.t-static.ru^$important
 !
 ! === WILDBERRIES / WB ===
 ||ads-media.wildberries.ru^$important
@@ -137,7 +110,7 @@
 ! === SAMSUNG ===
 ||vas.samsungapps.com^$important
 ||ru-odc.samsungapps.com^$important
-||[samsungsds.com^$important
+||samsungsds.com^$important
 !
 ! === LENOVO ===
 ||a.lenovo.com^$important
@@ -180,13 +153,11 @@
 ||ads.rustore.ru^$important
 ||stats.rustore.ru^$important
 ||static.a.mts.ru^$important
-||x5m-cdn.x5static.net^$important
-||5ka-media.x5static.net^$important
+||x5static.net^$important
 ||appmetrica.sovcombank.ru^$important
 ||app-analytics.whoosh.bike^$important
 ||sentry.kontur.host^$important
 ||pixel.id.x5.ru^$important
-||catalog-images.x5static.net^$important
 !
 ! ==========================================
 ! === SPECIFIC SERVICES & INFRASTRUCTURE ===
@@ -198,37 +169,26 @@
 !
 ! === SENTRY & CRASH REPORTING ===
 ||sentry-relay.avs.io^$important
-||o33249.ingest.sentry.io^$important
-||o1118521.ingest.us.sentry.io^$important
 ||sentry-relay.eu-north-1.avs.io^$important
 ||sentry-devtools.qsrapp.ru^$important
-||sentry.io^$important
 ||sentry-cdn.com^$important
+||sentry.io^$important
 !
 ! === CDN & STATIC INFRASTRUCTURE ===
-||a708.dsct.akamai.net^$important
-||a1956.dscw154.akamai.net^$important
-||akamai.net^$important
-||akamaiedge.net^$important
-||cdn.jsdelivr.net^$important
 ||static-storage.net^$important
-||st.aestatic.net^$important
-||content-static.pstatic.net^$important
-||epik-static-nres.pstatic.net^$important
-||ssl.p.jwpcdn.com^$important
+||aestatic.net^$important
+||pstatic.net^$important
 ||static-gg.servicecdn.ru^$important
 ||static-widgets-content-distribution.owhealth.com.cdn.cloudflare.net^$important
 ||statcore.hitmcdn.com^$important
-||4c-2f-63-r505.cloustates.org^$important
-||sf19-static.i18n-pglstatp.com^$important
+||cloustates.org^$important
+||i18n-pglstatp.com^$important
 ||premier-static.rtbcdn.ru^$important
 ||static.rtbcdn.ru^$important
-||kinescopecdn.net^$important
-||kinescope.io^$important
 ||static.insales-cdn.com^$important
 ||static.tacdn.com^$important
 ||static-mobile.boosty.to^$important
-||feedot.statsget.com^$important
+||statsget.com^$important
 ||static.pepy.tech^$important
 ||static.1000.menu^$important
 ||static.kinoafisha.info^$important
@@ -236,18 +196,15 @@
 ||yastatic-net.ru^$important
 !
 ! === ADS / PROMO / ANALYTICS NETWORKS ===
-||config.ads.vungle.com^$important
-||events.ads.vungle.com^$important
-||eye.targetads.io^$important
-||configv2.unityads.unity3d.com^$important
+||ads.vungle.com^$important
+||targetads.io^$important
+||unityads.unity3d.com^$important
 ||apptracking.retailrocket.ru^$important
-||pixel.adlooxtracking.ru^$important
+||adlooxtracking.ru^$important
 ||pixelswhirl.com^$important
 ||awin1.com^$important
 ||promo.rutubelist.ru^$important
-||ad.adriver.ru^$important
-||content.adriver.ru^$important
-||adv.adriver.ru^$important
+||adriver.ru^$important
 ||analytics.dns-shop.ru^$important
 ||tracking.retailrocket.ru^$important
 ||analytics-tcp.mintegral.net^$important
@@ -257,34 +214,31 @@
 ||analyze.playdeck.io^$important
 ||app-analytics-services-att.com^$important
 ||api-analytics-cn3.zepp.com^$important
-||pixel.dsp.onetarget.ru^$important
-||apity.ris.promo^$important
+||onetarget.ru^$important
 ||ris.promo^$important
-||api.ris.promo^$important
 ||stat4.russianfood.com^$important
 ||bidderstack.com^$important
 ||xdeep.space^$important
 ||opendsp.ru^$important
 ||onetarget.ru^$important
 ||linkssp.ru^$important
-||a.lotus-dsp.ru^$important
-||dsp.nt.technology^$important
+||lotus-dsp.ru^$important
+||nt.technology^$important
 ||targetrtb.com^$important
 ||surfy.space^$important
 ||adsp.io^$important
 ||pxltag.com^$important
-||bid.sspnet.tech^$important
+||sspnet.tech^$important
 ||kombinat.digital^$important
 ||ctrltech.ai^$important
 ||gonet-ads.com^$important
 ||winline.ru^$important
 ||videolink.host^$important
-||cm-ssp.voxexchange.io^$important
+||voxexchange.io^$important
 ||adspend.space^$important
-||bs.serving-sys.ru^$important
-||vast.ufouxbwn.com^$important
-||control.adjust.com^$important
-||app.adjust.com^$important
+||serving-sys.ru^$important
+||ufouxbwn.com^$important
+||adjust.com^$important
 ||api.impact.com.cdn.cloudflare.net^$important
 ||impact.com^$important
 ||list-manage.com^$important
@@ -292,12 +246,11 @@
 ||is.com^$important
 ||shareasale-analytics.com^$important
 ||bnc.lt^$important
-||cdn.taboola.com^$important
-||thetradedesk.com^$important
+||taboola.com^$important
 ||zenaps.com^$important
 ||thetradedesk.com^$important
-||ssp.adseedtech.com^$important
-||adv.widdimo.com^$important
+||adseedtech.com^$important
+||widdimo.com^$important
 !
 ! === COOKIES / CONSENT / FINGERPRINTING ===
 ||geo.cookie-script.com^$important
