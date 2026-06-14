@@ -152,7 +152,6 @@
 ||pixel.id.x5.ru^$important
 ||supersentry.cdek.ru^$important
 ||metrics.alfabank.ru^$important
-||sentry-mobile.alfabank.ru^$important
 ||sentry-blitz-fe.mntprod.net^$important
 ||ads.rustore.ru^$important
 ||stats.rustore.ru^$important
@@ -190,7 +189,6 @@
 ||rtbcdn.ru^$important
 ||static.insales-cdn.com^$important
 ||static.tacdn.com^$important
-||static-mobile.boosty.to^$important
 ||statsget.com^$important
 ||pepy.tech^$important
 ||static.1000.menu^$important
