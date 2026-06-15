@@ -150,7 +150,6 @@
 ||pixel.id.x5.ru^$important
 ||supersentry.cdek.ru^$important
 ||metrics.alfabank.ru^$important
-||sentry-blitz-fe.mntprod.net^$important
 ||ads.rustore.ru^$important
 ||stats.rustore.ru^$important
 ||static.a.mts.ru^$important
