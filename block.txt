@@ -29,8 +29,6 @@
 !
 ! === YANDEX / DZEN / YANGO ===
 ||verify.yandex.ru^$important
-||svc.cdn.yandex.net^$important
-||cdn.yandex.net^$important
 ||appmetrica.yango.com^$important
 ||appmetrica.yandex.com^$important
 ||appmetrica.yandex.net^$important
