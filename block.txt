@@ -291,7 +291,6 @@
 ||apptracer.ru^$important
 ||platform-static-production.lesta.ru^$important
 ||static.rutube.ru^$important
-||static-lstuscs.lesta.ru^$important
 ||static.2ip.io^$important
 ||static.yoomoney.ru^$important
 ||mindbox.ru^$important
