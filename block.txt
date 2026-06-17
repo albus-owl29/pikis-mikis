@@ -76,7 +76,6 @@
 ||static.vk.ru^$important
 !
 ! === META / FACEBOOK / INSTAGRAM / WHATSAPP ===
-||tr.facebook.com^$important
 ||static.cdninstagram.com^$important
 ||static.whatsapp.net^$important
 ||pixel.facebook.com^$important
