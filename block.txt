@@ -58,7 +58,6 @@
 ||download.windowsupdate.com^$important
 ||oneocsp.microsoft.com^$important
 ||static.microsoft^$important
-||data.microsoft.com^$important
 !
 ! === AMAZON / AWS ===
 ||amazon-adsystem.com^$important
