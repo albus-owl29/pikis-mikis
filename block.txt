@@ -48,6 +48,8 @@
 ||mediabilling.yandex.net^$important
 ||static-pano.maps.yandex.ru^$important
 ||adfox.ru^$important
+||strm.yandex.ru^$important
+||metrika.yandex.com^$important
 !
 ! === MICROSOFT / GITHUB / WINDOWS UPDATE ===
 ||officeclient.microsoft.com^$important
@@ -58,11 +60,14 @@
 ||download.windowsupdate.com^$important
 ||oneocsp.microsoft.com^$important
 ||static.microsoft^$important
+||wcpstatic.microsoft.com^$important
 !
 ! === AMAZON / AWS ===
 ||amazon-adsystem.com^$important
 ||checkip.amazonaws.com^$important
 ||mads-eu.amazon.com^$important
+||unagi-na.amazon.com^$important
+||st-widget.s3.amazonaws.com^$important
 !
 ! === VK / MAIL.RU / OK ===
 ||st.mycdn.me^$important
@@ -73,11 +78,13 @@
 ||static.vk.com^$important
 ||st.vk.ru^$important
 ||static.vk.ru^$important
+||alt-aj-https.mail.ru^$important
 !
 ! === META / FACEBOOK / INSTAGRAM / WHATSAPP ===
-||static.cdninstagram.com^$important
 ||static.whatsapp.net^$important
 ||pixel.facebook.com^$important
+||static.xx.fbcdn.net^$important
+||staticxx.facebook.com^$important
 !
 ! === X / TWITTER ===
 ||ads-api.twitter.com^$important
@@ -85,6 +92,10 @@
 ||analytics.twitter.com^$important
 ||ads-api.x.com^$important
 ||business.x.com^$important
+||video-ads.twitter.com^$important
+||syndication.twitter.com^$important
+||platform.twitter.com^$important
+||t.co^$important
 !
 ! === T-BANK / TINKOFF ===
 ||error-hub.tinkoff.ru^$important
@@ -121,6 +132,7 @@
 ! === BYTEDANCE / TIKTOK ===
 ||lf-static.tiktokpangle-cdn-us.com^$important
 ||business-api.tiktok.com^$important
+||pangleglobal.com^$important
 !
 ! === HUAWEI ===
 ||ads.huawei.com^$important
@@ -163,6 +175,7 @@
 ! === APPSFLYER SDK ===
 ||appsflyersdk.com^$important
 ||appsflyers.com^$important
+||app.appsflyer.com^$important
 !
 ! === SENTRY & CRASH REPORTING ===
 ||sentry-relay.avs.io^$important
@@ -170,9 +183,23 @@
 ||sentry-devtools.qsrapp.ru^$important
 ||sentry-cdn.com^$important
 ||sentry.io^$important
+||getsentry.com^$important
+||bugsnag.com^$important
+||airbrake.io^$important
+||trackjs.com^$important
+||raygun.io^$important
+||ravenjs.com^$important
+||rollbar.com^$important
+||logrocket.io^$important
+||lr-ingest.com^$important
+||honeybadger.io^$important
+||sentry-saas.rambler-co.ru^$important
+||sentry.srv.habr.com^$important
+||sentry.timeweb.cloud^$important
+||sentry-prod.gid.team^$important
+||sentry-prod.branch.io^$important
 !
 ! === CDN & STATIC INFRASTRUCTURE ===
-||static-storage.net^$important
 ||aestatic.net^$important
 ||pstatic.net^$important
 ||static-gg.servicecdn.ru^$important
@@ -190,6 +217,31 @@
 ||static.kinoafisha.info^$important
 ||static.mira.top^$important
 ||yastatic-net.ru^$important
+||static-api.mediavitrina.ru^$important
+||staticmv.mediavitrina.ru^$important
+||static.yota.ru^$important
+||vstatic.vietnam.vn^$important
+||static.nordicweather.net^$important
+||static.crossout.ru^$important
+||static.znanierussia.ru^$important
+||static.crunchyroll.com^$important
+||staticess.g.aaplimg.com^$important
+||static.ess.apple.com^$important
+||tmscoreb-static-ru.lesta.ru^$important
+||static-apkpure-com.cdn.ampproject.org^$important
+||static-apkpures-xyz.cdn.ampproject.org^$important
+||web-marketing-static.lesta.ru^$important
+||static.marquiz.io^$important
+||winscp-static-746341.c.cdn77.org^$important
+||static.yani.tv^$important
+||static.eaglecdn.com^$important
+||static.gazeta.ru^$important
+||static.usercontent.goog^$important
+||static.zdassets.com^$important
+||framerstatic.com^$important
+||static.kion.ru^$important
+||static.dnschecker.org^$important
+||static.driverpack.io^$important
 !
 ! === ADS / PROMO / ANALYTICS NETWORKS ===
 ||ads.vungle.com^$important
@@ -256,6 +308,89 @@
 ||nominaltechno.com^$important
 ||solta.io^$important
 ||viqeo.tv^$important
+||getads.ru^$important
+||analytics.hhworkwear.com^$important
+||fwmrm.net^$important
+||sendgrid.net^$important
+||getresponse.com^$important
+||hubspotemail.net^$important
+||constantcontact.com^$important
+||mandrillapp.com^$important
+||mailgun.org^$important
+||activecampaign.com^$important
+||mailgun.net^$important
+||aweber.com^$important
+||mailerlite.com^$important
+||sendinblue.com^$important
+||dripemail2.com^$important
+||convertkit.com^$important
+||getdrip.com^$important
+||configcat.com^$important
+||statsigapi.net^$important
+||abtest.ai^$important
+||vwo.com^$important
+||mobile.launchdarkly.com^$important
+||kqzyfj.com^$important
+||shrsl.com^$important
+||featuregates.org^$important
+||pardot.com^$important
+||customeriomail.com^$important
+||flagsmith.com^$important
+||launchdarkly.com^$important
+||streaming.split.io^$important
+||tkqlhce.com^$important
+||wrapper-api.sp-prod.net^$important
+||ads-mas.vivobrowser.com^$important
+||ads-mas-us.vivobrowser.com^$important
+||sharethis.com^$important
+||minergate.com^$important
+||fastpool.xyz^$important
+||hashforcash.us^$important
+||dynadot.com^$important
+||cryptoloot.org^$important
+||minero-proxy.com^$important
+||coin-hive-proxy.com^$important
+||coinhive-proxy.com^$important
+||app.link^$important
+||singular.net^$important
+||matomo.org^$important
+||pendo.io^$important
+||mailchimp.com^$important
+||googletagmanager.com^$important
+||widgets.pinterest.com^$important
+||platform.linkedin.com^$important
+||redditmedia.com^$important
+||imasdk.googleapis.com^$important
+||platform.instagram.com^$important
+||badges.instagram.com^$important
+||matomo.cloud^$important
+||amplitude.com^$important
+||analytics.amplitude.com^$important
+||err.lenta.ru^$important
+||ssp.rambler.ru^$important
+||hostingradio.ru^$important
+||smi2.net^$important
+||edge-upvideo.rbc.ru^$important
+||trbcdn.net^$important
+||me-talk.ru^$important
+||st.vkvideo.ru^$important
+||static.wmbcdn.com^$important
+||ads.dailymotion.com^$important
+||dailymotion.com^$important
+||cdn.jwplayer.com^$important
+||dm.gg^$important
+||bcovlive.io^$important
+||pagead2.googlevideo.com^$important
+||vimeocdn.com^$important
+||bcvp0rtal.com^$important
+||rudderstack.com^$important
+||feprom.kufar.by^$important
+||geomobileservices-pa.googleapis.com^$important
+||adsfs-id.oppomobile.com^$important
+||heytapmobile.com^$important
+||mediametrics.ru^$important
+||rmetrics.ru^$important
+||telemetry.jivo.ru^$important
 !
 ! === COOKIES / CONSENT / FINGERPRINTING ===
 ||cookie-script.com^$important
@@ -271,6 +406,10 @@
 ||usercentrics.eu^$important
 ||privacy-mgmt.com^$important
 ||trustarc.com^$important
+||didomi.io^$important
+||privacymanager.io^$important
+||onetrust.com^$important
+||optanon.blob.core.windows.net^$important
 !
 ! === BOT SERVICES ===
 ||jaicp.com^$important
@@ -290,9 +429,7 @@
 ||platform-static-production.lesta.ru^$important
 ||static.rutube.ru^$important
 ||static.2ip.io^$important
-||static.yoomoney.ru^$important
 ||mindbox.ru^$important
-||static.tildacdn.com^$important
 ||stat.tildaapi.com^$important
 ||mineralt.io^$important
 ||minero.cc^$important
@@ -303,3 +440,9 @@
 ||ascstats.iobit.com^$important
 ||stats.iobit.com^$important
 ||smartcallback.ru^$important
+||stat-api.gismeteo.net^$important
+||static.gismeteo.st^$important
+||static3.tildacdn.com^$important
+||ksn-ca-geo.kaspersky-labs.com^$important
+||ksn-a-stat-geo.kaspersky-labs.com^$important
+||ksn-file-geo.kaspersky-labs.com^$important
