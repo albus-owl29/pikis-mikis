@@ -11,6 +11,10 @@
 @@|android.googleapis.com^$important
 @@||developer.android.com^$important
 @@||apkpure-com.cdn.ampproject.org^$important
+@@||youtube.googleapis.com^$important
+@@||deviceintegritytokens-pa.googleapis.com^$important
+@@||cryptauthenrollment.googleapis.com^$important
+@@||securitydomain-pa.googleapis.com^$important
 !
 ! === APPLE / ICLOUD ===
 @@||amp-api-search-edge.apps.apple.com^$important
@@ -28,6 +32,9 @@
 ! === ALIBABA / ALIEXPRESS ===
 @@||alicdn.com
 @@aliexpress.ru
+!
+! === MICROSOFT ===
+@@||browser.events.data.microsoft.com^$important
 !
 ! === HUAWEI / DBANKCLOUD ===
 @@||datacollector-drru.dt.dbankcloud.ru^$important
@@ -69,8 +76,6 @@
 !
 ! === CDN & STATIC STORAGE ===
 @@||st.aestatic.net^$important
-@@||static.yoomoney.ru^$important
 @@||www.accuweather.com^$important
 @@||www.awxcdn.com^$important
-!
-
+@@||static.rtbcdn.ru^$important
