@@ -428,7 +428,6 @@
 ||apptracer.ru^$important
 ||platform-static-production.lesta.ru^$important
 ||static.rutube.ru^$important
-||static.2ip.io^$important
 ||mindbox.ru^$important
 ||stat.tildaapi.com^$important
 ||mineralt.io^$important
