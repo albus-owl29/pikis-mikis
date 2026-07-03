@@ -381,7 +381,6 @@
 ||dm.gg^$important
 ||bcovlive.io^$important
 ||pagead2.googlevideo.com^$important
-||vimeocdn.com^$important
 ||bcvp0rtal.com^$important
 ||rudderstack.com^$important
 ||feprom.kufar.by^$important
