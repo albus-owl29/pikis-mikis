@@ -7,8 +7,8 @@
 ! ==========================================
 !
 ! === GOOGLE / ALPHABET / ANDROID ===
-@@|android.clients.google.com^$important
-@@|android.googleapis.com^$important
+@@||android.clients.google.com^$important
+@@||android.googleapis.com^$important
 @@||developer.android.com^$important
 @@||apkpure-com.cdn.ampproject.org^$important
 @@||youtube.googleapis.com^$important
@@ -25,13 +25,13 @@
 @@||gateway.icloud.com^$important
 !
 ! === YANDEX ===
-@@|yastatic.net
-@@|rasp.yastatic.net
-@@||tc.mobile.yandex.net
+@@||yastatic.net^$important
+@@||rasp.yastatic.net^$important
+@@||tc.mobile.yandex.net^$important
 !
 ! === ALIBABA / ALIEXPRESS ===
-@@||alicdn.com
-@@aliexpress.ru
+@@||alicdn.com^$important
+@@||aliexpress.ru^$important
 !
 ! === MICROSOFT ===
 @@||browser.events.data.microsoft.com^$important
@@ -53,28 +53,42 @@
 @@||store-cdn.zepp.com^$important
 !
 ! === AVITO ===
-@@img.avito.st
+@@||img.avito.st^$important
 !
 ! === RUSTORE ===
-@@backapi.rustore.ru
-@@static.rustore.ru
+@@||backapi.rustore.ru^$important
+@@||static.rustore.ru^$important
 !
 ! === REVOLUT ===
 @@||get.revolut.com^$important
 !
 ! === AI SERVICES ===
-@@||chatglm.cn
+@@||chatglm.cn^$important
 !
 ! ==========================================
 ! === SPECIFIC SERVICES & INFRASTRUCTURE ===
 ! ==========================================
 !
 ! === DUCKDNS ===
-@@||www.duckdns.org^
-@@||duckdns.org^
+@@||www.duckdns.org^$important
+@@||duckdns.org^$important
 !
 ! === CDN & STATIC STORAGE ===
 @@||st.aestatic.net^$important
 @@||www.accuweather.com^$important
 @@||www.awxcdn.com^$important
 @@||static.rtbcdn.ru^$important
+!
+! === T-BANK / TINKOFF ===
+@@||static2.tinkoffjournal.ru^$important
+!
+! === VK / SMOTRIM STREAMING ===
+@@||st.vkvideo.ru^$important
+@@||stream.smotrim.ru^$important
+@@||cdn.smotrim.ru^$important
+!
+! === HSMEDIA ===
+@@||n1s1.hsmedia.ru^$important
+!
+! === DNS-SHOP ===
+@@||c.dns-shop.ru^$important
