@@ -21,6 +21,9 @@
 ||s.youtube.com^$important
 ||doubleclick.net^$important
 ||doubleclick.com^$important
+||ogads-pa.clients6.google.com^$important
+||appsgrowthpromo-pa.clients6.google.com^$important
+||consent.google.com^$important
 !
 ! === APPLE / ICLOUD ===
 ||mzstatic.com^$important
@@ -50,6 +53,14 @@
 ||adfox.ru^$important
 ||strm.yandex.ru^$important
 ||metrika.yandex.com^$important
+||yandex.st^$important
+||keyboard.yandex.net^$important
+||ya-keyboard.s3.yandex.net^$important
+||egress.yandex.net^$important
+||clck.yandex.net^$important
+||market-click2.yandex.ru^$important
+||partner.market.yandex.ru^$important
+||surveys.yandex.ru^$important
 !
 ! === MICROSOFT / GITHUB / WINDOWS UPDATE ===
 ||officeclient.microsoft.com^$important
@@ -61,6 +72,7 @@
 ||oneocsp.microsoft.com^$important
 ||static.microsoft^$important
 ||wcpstatic.microsoft.com^$important
+||dcg.microsoft.com^$important
 !
 ! === AMAZON / AWS ===
 ||amazon-adsystem.com^$important
@@ -79,6 +91,7 @@
 ||st.vk.ru^$important
 ||static.vk.ru^$important
 ||alt-aj-https.mail.ru^$important
+||akashi.vk-portal.net^$important
 !
 ! === META / FACEBOOK / INSTAGRAM / WHATSAPP ===
 ||static.whatsapp.net^$important
@@ -104,7 +117,8 @@
 ||mobile-lifestyle-static-prod.cdn-tinkoff.ru^$important
 ||promokod.tbank.ru^$important
 ||track.tbank.ru^$important
-||static2.tinkoffjournal.ru^$important
+||ms-dsp.tbank.ru^$important
+||api-statist.tinkoff.ru^$important
 !
 ! === WILDBERRIES / WB ===
 ||ads-media.wildberries.ru^$important
@@ -167,6 +181,7 @@
 ||app-analytics.whoosh.bike^$important
 ||sentry.kontur.host^$important
 ||alabuga.ru^$important
+||analytics.hhworkwear.com^$important
 !
 ! ==========================================
 ! === SPECIFIC SERVICES & INFRASTRUCTURE ===
@@ -242,6 +257,7 @@
 ||static.kion.ru^$important
 ||static.dnschecker.org^$important
 ||static.driverpack.io^$important
+||static.24fastload.net^$important
 !
 ! === ADS / PROMO / ANALYTICS NETWORKS ===
 ||ads.vungle.com^$important
@@ -309,7 +325,6 @@
 ||solta.io^$important
 ||viqeo.tv^$important
 ||getads.ru^$important
-||analytics.hhworkwear.com^$important
 ||fwmrm.net^$important
 ||sendgrid.net^$important
 ||getresponse.com^$important
@@ -325,6 +340,7 @@
 ||dripemail2.com^$important
 ||convertkit.com^$important
 ||getdrip.com^$important
+||sendsay.ru^$important
 ||configcat.com^$important
 ||statsigapi.net^$important
 ||abtest.ai^$important
@@ -370,10 +386,12 @@
 ||ssp.rambler.ru^$important
 ||hostingradio.ru^$important
 ||smi2.net^$important
+||smi2.ru^$important
 ||edge-upvideo.rbc.ru^$important
 ||trbcdn.net^$important
 ||me-talk.ru^$important
-||st.vkvideo.ru^$important
+!
+! === ADS / PROMO / ANALYTICS NETWORKS (CONT.) ===
 ||static.wmbcdn.com^$important
 ||ads.dailymotion.com^$important
 ||dailymotion.com^$important
@@ -390,6 +408,15 @@
 ||mediametrics.ru^$important
 ||rmetrics.ru^$important
 ||telemetry.jivo.ru^$important
+||jivo.ru^$important
+||jivosite.com^$important
+||comagic.ru^$important
+||tgads.space^$important
+||tgads.live^$important
+||adsgram.ai^$important
+||gigapub.tech^$important
+||adexium.tech^$important
+||browser-intake-datadoghq.com^$important
 !
 ! === COOKIES / CONSENT / FINGERPRINTING ===
 ||cookie-script.com^$important
@@ -419,6 +446,7 @@
 ||static4.banki.ru^$important
 ||static3.banki.ru^$important
 ||static2.banki.ru^$important
+||tracking.banki.ru^$important
 ||static.aviasales.com^$important
 ||combat-log.tanki.su^$important
 ||frontlogger.dodois.io^$important
@@ -444,3 +472,126 @@
 ||ksn-ca-geo.kaspersky-labs.com^$important
 ||ksn-a-stat-geo.kaspersky-labs.com^$important
 ||ksn-file-geo.kaspersky-labs.com^$important
+||ksn-cinfo-geo.kaspersky-labs.com^$important
+!
+! === MISC / UNCATEGORIZED RU TRACKING & AD DOMAINS ===
+||ceramet.net^$important
+||gencit.info^$important
+||iabvast.ru^$important
+||viafoura.net^$important
+||edna.id^$important
+||mtdata.ru^$important
+||test.ru^$important
+||ya-ligh123.site^$important
+||ya-ligh.com^$important
+||aniboom.one^$important
+||i1.boom-img.com^$important
+||защитник.рф^$important
+||кадры-победы.рф^$important
+||cpu.js.org^$important
+||ortified.ws^$important
+||femd.ws^$important
+||showvid.ws^$important
+||track.bluexad.ai^$important
+||adjumpa.com^$important
+||adweave.cc^$important
+||dadata.ru^$important
+||allsaints.tv^$important
+||flowmetric.life^$important
+||datatracking.ru^$important
+||snow.me^$important
+||jumpoutpopup.ru^$important
+||tracking.datadrivenpromotion.com^$important
+||icmp0.ru^$important
+||videonow.ru^$important
+||ussp.io^$important
+||iportal.ru^$important
+||hbrd.io^$important
+||mediadash.ru^$important
+||hsmedia.ru^$important
+||dsppx1.com^$important
+||hit.kfe0mn.ru^$important
+||event-analytics-backend.skyeng.ru^$important
+||bot-razdevator.sbs^$important
+||advcake.com^$important
+||customers.ai^$important
+||pr-cy.ru^$important
+||cpa.live^$important
+||mgln.ai^$important
+||metrics.secrets.ai^$important
+||ketchjs.com^$important
+||stat.ptk-svarka.ru^$important
+||pushstat.online^$important
+||trafficmafia.net^$important
+||sales-ninja.me^$important
+||a.lifehacker.ru^$important
+||metadata.io^$important
+||adtidy.org^$important
+!
+! ==========================================
+! === PREVENT DNS BYPASS (BLOCK DOH/DOT) ===
+! ==========================================
+!
+! === Google ===
+||dns.google^$important
+||dns.google.com^$important
+!
+! === Cloudflare ===
+||cloudflare-dns.com^$important
+||cloudflare-dns.net^$important
+||one.one.one.one^$important
+||1dot1dot1dot1.cloudflare-dns.com^$important
+||mozilla.cloudflare-dns.com^$important
+||security.cloudflare-dns.com^$important
+||family.cloudflare-dns.com^$important
+!
+! === Quad9 ===
+||dns.quad9.net^$important
+||dns9.quad9.net^$important
+||dns11.quad9.net^$important
+!
+! === OpenDNS / Cisco ===
+||doh.opendns.com^$important
+||doh.familyshield.opendns.com^$important
+||dns.umbrella.com^$important
+!
+! === NextDNS ===
+||dns.nextdns.io^$important
+||anycast.nextdns.io^$important
+||steering.nextdns.io^$important
+!
+! === AdGuard ===
+||dns.adguard.com^$important
+||dns.adguard-dns.com^$important
+||dns-unfiltered.adguard.com^$important
+||family.adguard-dns.com^$important
+!
+! === Control D ===
+||dns.controld.com^$important
+||freedns.controld.com^$important
+!
+! === CleanBrowsing ===
+||doh.cleanbrowsing.org^$important
+||security.cleanbrowsing.org^$important
+||family.cleanbrowsing.org^$important
+||adult.cleanbrowsing.org^$important
+!
+! === Yandex ===
+||dns.yandex.ru^$important
+||dns.yandex.com^$important
+||dns.yandex.net^$important
+!
+! === Mullvad ===
+||doh.mullvad.net^$important
+||adblock.doh.mullvad.net^$important
+!
+! === AliDNS ===
+||dns.alidns.com^$important
+!
+! === Akamai DNS ===
+||akadns.net^$important
+||akadns.com^$important
+!
+! === Apple DNS ===
+||apple-dns.net^$important
+||apple-dns.com^$important
