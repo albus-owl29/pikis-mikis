@@ -25,7 +25,6 @@
 ||consent.google.com^$important
 !
 ! === APPLE / ICLOUD ===
-||mzstatic.com^$important
 ||static.gc.apple.com^$important
 ||statici.icloud.com^$important
 !
