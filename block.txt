@@ -520,10 +520,6 @@
 ||cloudflare-dns.com^$important
 ||cloudflare-dns.net^$important
 ||one.one.one.one^$important
-||1dot1dot1dot1.cloudflare-dns.com^$important
-||mozilla.cloudflare-dns.com^$important
-||security.cloudflare-dns.com^$important
-||family.cloudflare-dns.com^$important
 !
 ! === Quad9 ===
 ||dns.quad9.net^$important
@@ -542,9 +538,8 @@
 !
 ! === AdGuard ===
 ||dns.adguard.com^$important
-||dns.adguard-dns.com^$important
 ||dns-unfiltered.adguard.com^$important
-||family.adguard-dns.com^$important
+||adguard-dns.com^$important
 !
 ! === Control D ===
 ||dns.controld.com^$important
@@ -563,15 +558,11 @@
 !
 ! === Mullvad ===
 ||doh.mullvad.net^$important
-||adblock.doh.mullvad.net^$important
 !
 ! === AliDNS ===
 ||dns.alidns.com^$important
 !
-! === Akamai DNS ===
-||akadns.net^$important
-||akadns.com^$important
-!
 ! === Apple DNS ===
-||apple-dns.net^$important
-||apple-dns.com^$important
+||mask.icloud.com^$important
+||mask-h2.icloud.com^$important
+||mask.apple-dns.net^$important
