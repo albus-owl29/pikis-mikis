@@ -138,7 +138,6 @@
 !
 ! === BYTEDANCE / TIKTOK ===
 ||lf-static.tiktokpangle-cdn-us.com^$important
-||business-api.tiktok.com^$important
 ||pangleglobal.com^$important
 !
 ! === HUAWEI ===
