@@ -66,9 +66,6 @@
 ||officeclient.microsoft.com^$important
 ||mrodevicemgr.officeapps.live.com^$important
 ||dsp.mp.microsoft.com^$important
-||windowsupdate.com^$important
-||update.microsoft.com^$important
-||download.windowsupdate.com^$important
 ||oneocsp.microsoft.com^$important
 ||static.microsoft^$important
 ||wcpstatic.microsoft.com^$important
