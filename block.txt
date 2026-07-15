@@ -16,7 +16,6 @@
 ||firebaselogging.googleapis.com^$important
 ||crashlytics.com^$important
 ||firebaselogging-pa.googleapis.com^$important
-||redirector.googlevideo.com^$important
 ||dai.google.com^$important
 ||s.youtube.com^$important
 ||doubleclick.net^$important
@@ -104,7 +103,6 @@
 ||video-ads.twitter.com^$important
 ||syndication.twitter.com^$important
 ||platform.twitter.com^$important
-||t.co^$important
 !
 ! === T-BANK / TINKOFF ===
 ||error-hub.tinkoff.ru^$important
@@ -224,7 +222,6 @@
 ||static.tacdn.com^$important
 ||statsget.com^$important
 ||pepy.tech^$important
-||static.1000.menu^$important
 ||static.kinoafisha.info^$important
 ||static.mira.top^$important
 ||yastatic-net.ru^$important
@@ -232,27 +229,22 @@
 ||staticmv.mediavitrina.ru^$important
 ||static.yota.ru^$important
 ||vstatic.vietnam.vn^$important
+||static.crunchyroll.com^$important
 ||static.nordicweather.net^$important
 ||static.crossout.ru^$important
 ||static.znanierussia.ru^$important
-||static.crunchyroll.com^$important
 ||staticess.g.aaplimg.com^$important
 ||static.ess.apple.com^$important
-||tmscoreb-static-ru.lesta.ru^$important
 ||static-apkpure-com.cdn.ampproject.org^$important
 ||static-apkpures-xyz.cdn.ampproject.org^$important
-||web-marketing-static.lesta.ru^$important
 ||static.marquiz.io^$important
 ||winscp-static-746341.c.cdn77.org^$important
 ||static.yani.tv^$important
 ||static.eaglecdn.com^$important
-||static.gazeta.ru^$important
 ||static.usercontent.goog^$important
 ||static.zdassets.com^$important
 ||framerstatic.com^$important
 ||static.kion.ru^$important
-||static.dnschecker.org^$important
-||static.driverpack.io^$important
 ||static.24fastload.net^$important
 !
 ! === ADS / PROMO / ANALYTICS NETWORKS ===
@@ -304,7 +296,6 @@
 ||px.srvcs.tumblr.com^$important
 ||is.com^$important
 ||shareasale-analytics.com^$important
-||bnc.lt^$important
 ||taboola.com^$important
 ||zenaps.com^$important
 ||thetradedesk.com^$important
@@ -363,7 +354,6 @@
 ||minero-proxy.com^$important
 ||coin-hive-proxy.com^$important
 ||coinhive-proxy.com^$important
-||app.link^$important
 ||singular.net^$important
 ||matomo.org^$important
 ||pendo.io^$important
@@ -390,8 +380,6 @@
 ! === ADS / PROMO / ANALYTICS NETWORKS (CONT.) ===
 ||static.wmbcdn.com^$important
 ||ads.dailymotion.com^$important
-||dailymotion.com^$important
-||cdn.jwplayer.com^$important
 ||dm.gg^$important
 ||bcovlive.io^$important
 ||pagead2.googlevideo.com^$important
@@ -438,7 +426,6 @@
 !
 ! === MISC / SYSTEM / SECURITY ===
 ||static.nvidiagrid.net^$important
-||static.rambler.ru^$important
 ||static4.banki.ru^$important
 ||static3.banki.ru^$important
 ||static2.banki.ru^$important
@@ -450,7 +437,6 @@
 ||intercom.io^$important
 ||apptracer.ru^$important
 ||platform-static-production.lesta.ru^$important
-||static.rutube.ru^$important
 ||mindbox.ru^$important
 ||stat.tildaapi.com^$important
 ||mineralt.io^$important
