@@ -20,7 +20,6 @@
 @@||amp-api-search-edge.apps.apple.com^$important
 @@||pancake.apple.com^$important
 @@||amp-api-edge.apps.apple.com^$important
-@@||is1-ssl.mzstatic.com^$important
 @@||ca.iadsdk.apple.com^$important
 @@||gateway.icloud.com^$important
 !
@@ -74,10 +73,8 @@
 @@||duckdns.org^$important
 !
 ! === CDN & STATIC STORAGE ===
-@@||st.aestatic.net^$important
-@@||www.accuweather.com^$important
+@@||accuweather.com^$important
 @@||www.awxcdn.com^$important
-@@||static.rtbcdn.ru^$important
 !
 ! === T-BANK / TINKOFF ===
 @@||static2.tinkoffjournal.ru^$important
