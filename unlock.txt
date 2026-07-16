@@ -24,9 +24,6 @@
 @@||gateway.icloud.com^$important
 !
 ! === YANDEX ===
-@@||yastatic.net^$important
-@@||rasp.yastatic.net^$important
-@@||tc.mobile.yandex.net^$important
 !
 ! === ALIBABA / ALIEXPRESS ===
 @@||alicdn.com^$important
