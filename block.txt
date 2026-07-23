@@ -506,7 +506,6 @@
 ||sales-ninja.me^$important
 ||a.lifehacker.ru^$important
 ||metadata.io^$important
-||adtidy.org^$important
 !
 ! ==========================================
 ! === PREVENT DNS BYPASS (BLOCK DOH/DOT) ===
