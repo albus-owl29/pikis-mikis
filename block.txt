@@ -214,8 +214,6 @@
 ||statcore.hitmcdn.com^$important
 ||cloustates.org^$important
 ||i18n-pglstatp.com^$important
-||premier-static.rtbcdn.ru^$important
-||rtbcdn.ru^$important
 ||static.insales-cdn.com^$important
 ||static.tacdn.com^$important
 ||statsget.com^$important
