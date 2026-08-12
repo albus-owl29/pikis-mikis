@@ -558,18 +558,20 @@
 ||mask-h2.icloud.com^$important
 ||mask.apple-dns.net^$important
 !
-! === RU PUNYCODE / MISC РЕКЛАМА И ТРЕКИНГ ===
+! === PUNYCODE ===
 ||xn--80aneakq8a4c.xn--p1ai^$important
-||yourgood.app^$important
-||calltouch.ru^$important
 ||xn----7sbekcf4a9aii5jg.xn--p1ai^$important
 ||xn--80aneakq5ade5a9a.xn--p1ai^$important
+||xn--80abjd7bf.xn----7sbe7abqgmfngd.xn--p1ai^$important
+||xn----7sbbdr3bqcgfgcy.com^$important
+!
+! === MISC РЕКЛАМА И ТРЕКИНГ ===
+||yourgood.app^$important
+||calltouch.ru^$important
 ||adspower.com^$important
 ||roiads.co^$important
 ||aads.com^$important
 ||ads.taxiaid.org^$important
-||xn--80abjd7bf.xn----7sbe7abqgmfngd.xn--p1ai^$important
-||xn----7sbbdr3bqcgfgcy.com^$important
 ||mediasniper.ru^$important
 !
 ! === YANDEX / GOOGLE / YOUTUBE — ПОИСКОВЫЕ ПОДСКАЗКИ (SUGGEST) ===
