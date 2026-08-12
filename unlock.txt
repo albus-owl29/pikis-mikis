@@ -2,9 +2,29 @@
 ! Description: Critical domains to allow, organized by corporation and service.
 ! Format: Adblock
 !
-! ==========================================
-! === MAJOR CORPORATIONS (WHITELIST) ===
-! ==========================================
+! === APPLE / ICLOUD (WHITELIST) ===
+@@||support.apple.com^$important
+!
+! === GOOGLE MAPS (WHITELIST) ===
+@@||mobilemaps.googleapis.com^$important
+@@||mobilemaps-pa-gz.googleapis.com^$important
+!
+! === YANDEX MUSIC (WHITELIST) ===
+@@||api.music.yandex.net^$important
+@@||mobileproxy.passport.yandex.net^$important
+@@||strm.yandex.net^$important
+@@||avatars.yandex.net^$important
+@@||music.yandex.com^$important
+@@||music-lyrics.s3-private.mds.yandex.net^$important
+!
+! === DROM.RU (WHITELIST) ===
+@@||r2.drom.ru^$important
+@@||r.drom.ru^$important
+@@||s.auto.drom.ru^$important
+!
+! === GOOGLE / YOUTUBE — VIDEO CDN (WHITELIST) ===
+@@||redirector.googlevideo.com^$important
+@@||youtubei.googleapis.com^$important
 !
 ! === GOOGLE / ALPHABET / ANDROID ===
 @@||android.clients.google.com^$important
@@ -22,8 +42,6 @@
 @@||amp-api-edge.apps.apple.com^$important
 @@||ca.iadsdk.apple.com^$important
 @@||gateway.icloud.com^$important
-!
-! === YANDEX ===
 !
 ! === ALIBABA / ALIEXPRESS ===
 @@||alicdn.com^$important
@@ -60,10 +78,6 @@
 !
 ! === AI SERVICES ===
 @@||chatglm.cn^$important
-!
-! ==========================================
-! === SPECIFIC SERVICES & INFRASTRUCTURE ===
-! ==========================================
 !
 ! === DUCKDNS ===
 @@||www.duckdns.org^$important
