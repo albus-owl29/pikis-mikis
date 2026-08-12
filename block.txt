@@ -2,10 +2,6 @@
 ! Description: Full blocklist, deduplicated and strictly categorized by corporation.
 ! Format: Adblock
 !
-! ==========================================
-! === MAJOR CORPORATIONS (STRICT BLOCKS) ===
-! ==========================================
-!
 ! === GOOGLE / ALPHABET / YOUTUBE / FIREBASE ===
 ||googleadservices.com^$important
 ||google-analytics.com^$important
@@ -27,6 +23,7 @@
 ! === APPLE / ICLOUD ===
 ||static.gc.apple.com^$important
 ||statici.icloud.com^$important
+||applebot.apple.com^$important
 !
 ! === YANDEX / DZEN / YANGO ===
 ||verify.yandex.ru^$important
@@ -51,7 +48,6 @@
 ||adfox.ru^$important
 ||strm.yandex.ru^$important
 ||metrika.yandex.com^$important
-||yandex.st^$important
 ||keyboard.yandex.net^$important
 ||ya-keyboard.s3.yandex.net^$important
 ||egress.yandex.net^$important
@@ -59,6 +55,14 @@
 ||market-click2.yandex.ru^$important
 ||partner.market.yandex.ru^$important
 ||surveys.yandex.ru^$important
+!
+! === YANDEX — CDN / СТАТИКА / SMARTCAPTCHA ===
+||yandex.st^$important
+||yastatic.com^$important
+||yastatic.net^$important
+||yastatic.ru^$important
+||yandex.net^$important
+||smartcaptcha.yandexcloud.net^$important
 !
 ! === MICROSOFT / GITHUB / WINDOWS UPDATE ===
 ||officeclient.microsoft.com^$important
@@ -174,10 +178,6 @@
 ||sentry.kontur.host^$important
 ||alabuga.ru^$important
 ||analytics.hhworkwear.com^$important
-!
-! ==========================================
-! === SPECIFIC SERVICES & INFRASTRUCTURE ===
-! ==========================================
 !
 ! === APPSFLYER SDK ===
 ||appsflyersdk.com^$important
@@ -464,8 +464,6 @@
 ||ya-ligh.com^$important
 ||aniboom.one^$important
 ||i1.boom-img.com^$important
-||защитник.рф^$important
-||кадры-победы.рф^$important
 ||cpu.js.org^$important
 ||ortified.ws^$important
 ||femd.ws^$important
@@ -505,20 +503,16 @@
 ||a.lifehacker.ru^$important
 ||metadata.io^$important
 !
-! ==========================================
-! === PREVENT DNS BYPASS (BLOCK DOH/DOT) ===
-! ==========================================
-!
-! === Google ===
+! === Google DNS ===
 ||dns.google^$important
 ||dns.google.com^$important
 !
-! === Cloudflare ===
+! === Cloudflare DNS ===
 ||cloudflare-dns.com^$important
 ||cloudflare-dns.net^$important
 ||one.one.one.one^$important
 !
-! === Quad9 ===
+! === Quad9 DNS ===
 ||dns.quad9.net^$important
 ||dns9.quad9.net^$important
 ||dns11.quad9.net^$important
@@ -533,7 +527,7 @@
 ||anycast.nextdns.io^$important
 ||steering.nextdns.io^$important
 !
-! === AdGuard ===
+! === AdGuard DNS ===
 ||dns.adguard.com^$important
 ||dns-unfiltered.adguard.com^$important
 ||adguard-dns.com^$important
@@ -542,18 +536,18 @@
 ||dns.controld.com^$important
 ||freedns.controld.com^$important
 !
-! === CleanBrowsing ===
+! === CleanBrowsing DNS ===
 ||doh.cleanbrowsing.org^$important
 ||security.cleanbrowsing.org^$important
 ||family.cleanbrowsing.org^$important
 ||adult.cleanbrowsing.org^$important
 !
-! === Yandex ===
+! === Yandex DNS ===
 ||dns.yandex.ru^$important
 ||dns.yandex.com^$important
 ||dns.yandex.net^$important
 !
-! === Mullvad ===
+! === Mullvad DNS ===
 ||doh.mullvad.net^$important
 !
 ! === AliDNS ===
@@ -563,3 +557,39 @@
 ||mask.icloud.com^$important
 ||mask-h2.icloud.com^$important
 ||mask.apple-dns.net^$important
+!
+! === RU PUNYCODE / MISC РЕКЛАМА И ТРЕКИНГ ===
+||xn--80aneakq8a4c.xn--p1ai^$important
+||yourgood.app^$important
+||calltouch.ru^$important
+||xn----7sbekcf4a9aii5jg.xn--p1ai^$important
+||xn--80aneakq5ade5a9a.xn--p1ai^$important
+||adspower.com^$important
+||roiads.co^$important
+||aads.com^$important
+||ads.taxiaid.org^$important
+||xn--80abjd7bf.xn----7sbe7abqgmfngd.xn--p1ai^$important
+||xn----7sbbdr3bqcgfgcy.com^$important
+||mediasniper.ru^$important
+!
+! === YANDEX / GOOGLE / YOUTUBE — ПОИСКОВЫЕ ПОДСКАЗКИ (SUGGEST) ===
+||suggests.rasp.yandex-net.ru^$important
+||suggest-multi.yandex.net^$important
+||suggestqueries.google.com^$important
+||suggest.yandex.ru^$important
+||suggest.dzen.ru^$important
+||suggestqueries-clients6.youtube.com^$important
+||suggestions.dadata.ru^$important
+!
+! === YANDEX — ОСНОВНЫЕ ДОМЕНЫ И ПОИСК ===
+||ya.ru^$important
+||yandex.ru^$important
+||yandex.com^$important
+||yandex.by^$important
+||yandex.kz^$important
+||yandex.ua^$important
+||yandex.uz^$important
+||yandex.com.tr^$important
+||yandex.fr^$important
+||yandex.eu^$important
+||yandex.org^$important
