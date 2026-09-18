@@ -19,11 +19,13 @@
 ||ogads-pa.clients6.google.com^$important
 ||appsgrowthpromo-pa.clients6.google.com^$important
 ||consent.google.com^$important
+||csi.gstatic.com^$important
 !
 ! === APPLE / ICLOUD ===
 ||static.gc.apple.com^$important
 ||statici.icloud.com^$important
 ||applebot.apple.com^$important
+||apple-dns.net^$important
 !
 ! === YANDEX / DZEN / YANGO ===
 ||verify.yandex.ru^$important
@@ -55,6 +57,7 @@
 ||market-click2.yandex.ru^$important
 ||partner.market.yandex.ru^$important
 ||surveys.yandex.ru^$important
+||ads.yandex.com^$important
 !
 ! === YANDEX — CDN / СТАТИКА / SMARTCAPTCHA ===
 ||yandex.st^$important
@@ -164,6 +167,7 @@
 ||stats.avito.ru^$important
 ||ads-storage.avito.ru^$important
 ||sentry.hh.ru^$important
+||adsrv.hh.ru^$important
 ||ads.x5media.ru^$important
 ||sentry.x5.ru^$important
 ||x5static.net^$important
@@ -247,6 +251,7 @@
 ||ads.vungle.com^$important
 ||targetads.io^$important
 ||unityads.unity3d.com^$important
+||ads-sdk-gateway.prd.mz.internal.unity3d.com^$important
 ||retailrocket.ru^$important
 ||adlooxtracking.ru^$important
 ||pixelswhirl.com^$important
@@ -372,8 +377,6 @@
 ||edge-upvideo.rbc.ru^$important
 ||trbcdn.net^$important
 ||me-talk.ru^$important
-!
-! === ADS / PROMO / ANALYTICS NETWORKS (CONT.) ===
 ||static.wmbcdn.com^$important
 ||ads.dailymotion.com^$important
 ||dm.gg^$important
@@ -397,6 +400,56 @@
 ||gigapub.tech^$important
 ||adexium.tech^$important
 ||browser-intake-datadoghq.com^$important
+||adsafeprotected.com^$important
+||a.udsp.io^$important
+||namy.ws^$important
+||zcvh.net^$important
+||fprxnet.ws^$important
+||adbustr.com^$important
+||gear-hub.ru^$important
+||klkmdsync.site^$important
+||ia.box^$important
+||q-bid.ru^$important
+||techdsp.ru^$important
+||bringads.com^$important
+||getaim.org^$important
+||vuegenesisvue.com^$important
+||traffaret.com^$important
+||sync.adlook.online^$important
+||sova.live^$important
+||alfasrv.com^$important
+||trust-id.ru^$important
+||adlook.online^$important
+||proga.space^$important
+||monetix.group^$important
+||widdimo.tech^$important
+||i-trailer.ru^$important
+||selfclick.pro^$important
+||rmdsp.ru^$important
+||mplays.ru^$important
+||flintraxvk-companet.pro^$important
+||bracdn.online^$important
+||gepard.digital^$important
+||adrush.space^$important
+||terratraf.io^$important
+||gpm-ssp.ru^$important
+||vigo.tech^$important
+!
+! === RTB & AD NETWORKS (RTBCDN) ===
+||river-m9-rtk-353.rtbcdn.ru^$important
+||river-m9-rtk-d3115.rtbcdn.ru^$important
+||river-3-348.rtbcdn.ru^$important
+||river-m9-rtk-328.rtbcdn.ru^$important
+||river-m9-rtk-351.rtbcdn.ru^$important
+||river-m9-rtk-318.rtbcdn.ru^$important
+||river-m9-rtk-d3116.rtbcdn.ru^$important
+||river-m9-rtk-350.rtbcdn.ru^$important
+||river-m9-rtk-333.rtbcdn.ru^$important
+||river-m9-rtk-d332.rtbcdn.ru^$important
+||river-m9-rtk-334.rtbcdn.ru^$important
+||river-m9-rtk-331.rtbcdn.ru^$important
+||river-m9-rtk-319.rtbcdn.ru^$important
+||river-m9-rtk-352.rtbcdn.ru^$important
 !
 ! === COOKIES / CONSENT / FINGERPRINTING ===
 ||cookie-script.com^$important
@@ -453,8 +506,6 @@
 ||ksn-cinfo-geo.kaspersky-labs.com^$important
 !
 ! === MISC / UNCATEGORIZED RU TRACKING & AD DOMAINS ===
-||ceramet.net^$important
-||gencit.info^$important
 ||iabvast.ru^$important
 ||viafoura.net^$important
 ||edna.id^$important
@@ -502,6 +553,10 @@
 ||sales-ninja.me^$important
 ||a.lifehacker.ru^$important
 ||metadata.io^$important
+||analyticstransfer.taximaxim.ru^$important
+||analytics.biggeek.ru^$important
+||gpmdata.ru^$important
+||bl.rutube.ru^$important
 !
 ! === Google DNS ===
 ||dns.google^$important
@@ -573,6 +628,12 @@
 ||aads.com^$important
 ||ads.taxiaid.org^$important
 ||mediasniper.ru^$important
+||track.wattpadhq.com^$important
+||track.marshall.com^$important
+||lptracker.io^$important
+||crm-track.space^$important
+||img.adspower.net^$important
+||www.adspower.com^$important
 !
 ! === YANDEX / GOOGLE / YOUTUBE — ПОИСКОВЫЕ ПОДСКАЗКИ (SUGGEST) ===
 ||suggests.rasp.yandex-net.ru^$important
