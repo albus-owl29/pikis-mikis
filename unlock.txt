@@ -2,29 +2,17 @@
 ! Description: Critical domains to allow, organized by corporation and service.
 ! Format: Adblock
 !
-! === APPLE / ICLOUD (WHITELIST) ===
+! === APPLE / ICLOUD ===
 @@||support.apple.com^$important
+@@||amp-api-search-edge.apps.apple.com^$important
+@@||pancake.apple.com^$important
+@@||amp-api-edge.apps.apple.com^$important
+@@||ca.iadsdk.apple.com^$important
+@@||gateway.icloud.com^$important
 !
-! === GOOGLE MAPS (WHITELIST) ===
+! === GOOGLE MAPS ===
 @@||mobilemaps.googleapis.com^$important
 @@||mobilemaps-pa-gz.googleapis.com^$important
-!
-! === YANDEX MUSIC (WHITELIST) ===
-@@||api.music.yandex.net^$important
-@@||mobileproxy.passport.yandex.net^$important
-@@||strm.yandex.net^$important
-@@||avatars.yandex.net^$important
-@@||music.yandex.com^$important
-@@||music-lyrics.s3-private.mds.yandex.net^$important
-!
-! === DROM.RU (WHITELIST) ===
-@@||r2.drom.ru^$important
-@@||r.drom.ru^$important
-@@||s.auto.drom.ru^$important
-!
-! === GOOGLE / YOUTUBE — VIDEO CDN (WHITELIST) ===
-@@||redirector.googlevideo.com^$important
-@@||youtubei.googleapis.com^$important
 !
 ! === GOOGLE / ALPHABET / ANDROID ===
 @@||android.clients.google.com^$important
@@ -35,13 +23,24 @@
 @@||deviceintegritytokens-pa.googleapis.com^$important
 @@||cryptauthenrollment.googleapis.com^$important
 @@||securitydomain-pa.googleapis.com^$important
+@@||speechs3proto2-pa.googleapis.com^$important
 !
-! === APPLE / ICLOUD ===
-@@||amp-api-search-edge.apps.apple.com^$important
-@@||pancake.apple.com^$important
-@@||amp-api-edge.apps.apple.com^$important
-@@||ca.iadsdk.apple.com^$important
-@@||gateway.icloud.com^$important
+! === GOOGLE / YOUTUBE — VIDEO CDN ===
+@@||redirector.googlevideo.com^$important
+@@||youtubei.googleapis.com^$important
+!
+! === YANDEX MUSIC ===
+@@||api.music.yandex.net^$important
+@@||mobileproxy.passport.yandex.net^$important
+@@||strm.yandex.net^$important
+@@||avatars.yandex.net^$important
+@@||music.yandex.com^$important
+@@||music-lyrics.s3-private.mds.yandex.net^$important
+!
+! === DROM.RU ===
+@@||r2.drom.ru^$important
+@@||r.drom.ru^$important
+@@||s.auto.drom.ru^$important
 !
 ! === ALIBABA / ALIEXPRESS ===
 @@||alicdn.com^$important
@@ -100,3 +99,8 @@
 !
 ! === DNS-SHOP ===
 @@||c.dns-shop.ru^$important
+!
+! === LORD-FILM CDN ===
+@@||gencit.info^$important
+@@||ceramet.net^$important
+@@||api.ortified.ws^$important
