@@ -99,8 +99,3 @@
 !
 ! === DNS-SHOP ===
 @@||c.dns-shop.ru^$important
-!
-! === LORD-FILM CDN ===
-@@||gencit.info^$important
-@@||ceramet.net^$important
-@@||api.ortified.ws^$important
