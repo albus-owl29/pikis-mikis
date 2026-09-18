@@ -516,7 +516,6 @@
 ||aniboom.one^$important
 ||i1.boom-img.com^$important
 ||cpu.js.org^$important
-||ortified.ws^$important
 ||femd.ws^$important
 ||showvid.ws^$important
 ||track.bluexad.ai^$important
