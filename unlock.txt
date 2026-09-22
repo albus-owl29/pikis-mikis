@@ -25,10 +25,6 @@
 @@||securitydomain-pa.googleapis.com^$important
 @@||speechs3proto2-pa.googleapis.com^$important
 !
-! === GOOGLE / YOUTUBE — VIDEO CDN ===
-@@||redirector.googlevideo.com^$important
-@@||youtubei.googleapis.com^$important
-!
 ! === YANDEX MUSIC ===
 @@||api.music.yandex.net^$important
 @@||mobileproxy.passport.yandex.net^$important
