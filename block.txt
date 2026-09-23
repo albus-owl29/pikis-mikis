@@ -426,7 +426,6 @@
 ||selfclick.pro^$important
 ||rmdsp.ru^$important
 ||mplays.ru^$important
-||flintraxvk-companet.pro^$important
 ||bracdn.online^$important
 ||gepard.digital^$important
 ||adrush.space^$important
