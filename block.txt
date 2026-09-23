@@ -289,7 +289,6 @@
 ||voxexchange.io^$important
 ||adspend.space^$important
 ||serving-sys.ru^$important
-||ufouxbwn.com^$important
 ||adjust.com^$important
 ||api.impact.com.cdn.cloudflare.net^$important
 ||impact.com^$important
