@@ -402,7 +402,6 @@
 ||browser-intake-datadoghq.com^$important
 ||adsafeprotected.com^$important
 ||a.udsp.io^$important
-||namy.ws^$important
 ||zcvh.net^$important
 ||fprxnet.ws^$important
 ||adbustr.com^$important
