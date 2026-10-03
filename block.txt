@@ -641,14 +641,4 @@
 ||suggestions.dadata.ru^$important
 !
 ! === YANDEX — ОСНОВНЫЕ ДОМЕНЫ И ПОИСК ===
-||ya.ru^$important
-||yandex.ru^$important
-||yandex.com^$important
-||yandex.by^$important
-||yandex.kz^$important
-||yandex.ua^$important
-||yandex.uz^$important
-||yandex.com.tr^$important
-||yandex.fr^$important
-||yandex.eu^$important
-||yandex.org^$important
+
